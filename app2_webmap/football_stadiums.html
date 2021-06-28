@@ -1,0 +1,4881 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_fb0e70e8021b43929ff42fe1bd088971 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_fb0e70e8021b43929ff42fe1bd088971" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_fb0e70e8021b43929ff42fe1bd088971 = L.map(
+        'map_fb0e70e8021b43929ff42fe1bd088971', {
+        center: [53.76, -2.7],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_f13f6b380a3547658fe05e1fc227302c = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_fb0e70e8021b43929ff42fe1bd088971);
+    
+            var feature_group_42d43328d10a4e75be46c0cd2b939248 = L.featureGroup(
+                ).addTo(map_fb0e70e8021b43929ff42fe1bd088971);
+        
+    
+        var marker_dc5cf1f254d942978c9e08dbefbbf2e2 = L.marker(
+            [52.2128, 0.154298],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_6dc338d441ef42d3923620b0f3779421 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dc5cf1f254d942978c9e08dbefbbf2e2.setIcon(icon_6dc338d441ef42d3923620b0f3779421);
+            
+    
+            var popup_a96db38e4d67465f9df9691c2d595354 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b1e81f3051e041b0bea6556d60fc58c9 = $('<div id="html_b1e81f3051e041b0bea6556d60fc58c9" style="width: 100.0%; height: 100.0%;">Abbey Stadium         - Cambridge United - 10847</div>')[0];
+                popup_a96db38e4d67465f9df9691c2d595354.setContent(html_b1e81f3051e041b0bea6556d60fc58c9);
+            
+
+            marker_dc5cf1f254d942978c9e08dbefbbf2e2.bindPopup(popup_a96db38e4d67465f9df9691c2d595354)
+            ;
+
+            
+        
+    
+        var marker_15fdbda159d3461082dc8925920556f0 = L.marker(
+            [51.6306, -0.800299],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_80c126b5dd9a40dfaea47cc2e0382d23 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_15fdbda159d3461082dc8925920556f0.setIcon(icon_80c126b5dd9a40dfaea47cc2e0382d23);
+            
+    
+            var popup_90c0a9a2ef96498395e1d7dca39a2900 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_462c4fc3da7f4722b0b08321092e9ed9 = $('<div id="html_462c4fc3da7f4722b0b08321092e9ed9" style="width: 100.0%; height: 100.0%;">Adams Park         - Wycombe Wanderers - 10284</div>')[0];
+                popup_90c0a9a2ef96498395e1d7dca39a2900.setContent(html_462c4fc3da7f4722b0b08321092e9ed9);
+            
+
+            marker_15fdbda159d3461082dc8925920556f0.bindPopup(popup_90c0a9a2ef96498395e1d7dca39a2900)
+            ;
+
+            
+        
+    
+        var marker_261c676c595f4502a6812f2d719900f1 = L.marker(
+            [53.0875, -2.43569],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_4db9368ad2904d298c3e394a1f8d7670 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_261c676c595f4502a6812f2d719900f1.setIcon(icon_4db9368ad2904d298c3e394a1f8d7670);
+            
+    
+            var popup_f57a0ec8de7140a5968fd67bfdb304c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e118718c366d4d658e3bc8770aaa731b = $('<div id="html_e118718c366d4d658e3bc8770aaa731b" style="width: 100.0%; height: 100.0%;">Alexandra Stadium         - Crewe Alexandra - 10153</div>')[0];
+                popup_f57a0ec8de7140a5968fd67bfdb304c9.setContent(html_e118718c366d4d658e3bc8770aaa731b);
+            
+
+            marker_261c676c595f4502a6812f2d719900f1.bindPopup(popup_f57a0ec8de7140a5968fd67bfdb304c9)
+            ;
+
+            
+        
+    
+        var marker_a6191a66d1ed4de3a3a712d6aeb2540b = L.marker(
+            [55.8864, -3.52207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_c4d2aacb38e64975ad77e61b60742577 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6191a66d1ed4de3a3a712d6aeb2540b.setIcon(icon_c4d2aacb38e64975ad77e61b60742577);
+            
+    
+            var popup_0de28354e98243db8006ce6a8da4da16 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_587bb5248ebe4d44ab32f6977bb22124 = $('<div id="html_587bb5248ebe4d44ab32f6977bb22124" style="width: 100.0%; height: 100.0%;">Almondvale Stadium         - Livingston - 10122</div>')[0];
+                popup_0de28354e98243db8006ce6a8da4da16.setContent(html_587bb5248ebe4d44ab32f6977bb22124);
+            
+
+            marker_a6191a66d1ed4de3a3a712d6aeb2540b.bindPopup(popup_0de28354e98243db8006ce6a8da4da16)
+            ;
+
+            
+        
+    
+        var marker_2c63f21f3e7d439c9239569816075c03 = L.marker(
+            [53.2535, -1.4272],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_773fcebcc5c14754975a6d108ed28b9e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2c63f21f3e7d439c9239569816075c03.setIcon(icon_773fcebcc5c14754975a6d108ed28b9e);
+            
+    
+            var popup_8f11fec2ece94cd995345e2e4f7b2219 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_41788b15d1f5441685eb76fd59a2e6fe = $('<div id="html_41788b15d1f5441685eb76fd59a2e6fe" style="width: 100.0%; height: 100.0%;">B2net Stadium         - Chesterfield - 10400</div>')[0];
+                popup_8f11fec2ece94cd995345e2e4f7b2219.setContent(html_41788b15d1f5441685eb76fd59a2e6fe);
+            
+
+            marker_2c63f21f3e7d439c9239569816075c03.bindPopup(popup_8f11fec2ece94cd995345e2e4f7b2219)
+            ;
+
+            
+        
+    
+        var marker_69272525eab04935ac10767318ea91f6 = L.marker(
+            [57.5112, -1.7959900000000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_20496e83c47b4adab8c142fa603a7e23 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_69272525eab04935ac10767318ea91f6.setIcon(icon_20496e83c47b4adab8c142fa603a7e23);
+            
+    
+            var popup_3ab04b68fb724ee985100dd51dd4079d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_87298204ca5f4ac5bbe4423cd14bfa92 = $('<div id="html_87298204ca5f4ac5bbe4423cd14bfa92" style="width: 100.0%; height: 100.0%;">Balmoor         - Peterhead - 4000</div>')[0];
+                popup_3ab04b68fb724ee985100dd51dd4079d.setContent(html_87298204ca5f4ac5bbe4423cd14bfa92);
+            
+
+            marker_69272525eab04935ac10767318ea91f6.bindPopup(popup_3ab04b68fb724ee985100dd51dd4079d)
+            ;
+
+            
+        
+    
+        var marker_0e9c97b276b742a58056765a585a1efa = L.marker(
+            [56.1889, -2.99914],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_6a6fd84acf104fb8bb0ab4d648f751d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0e9c97b276b742a58056765a585a1efa.setIcon(icon_6a6fd84acf104fb8bb0ab4d648f751d3);
+            
+    
+            var popup_eb4a0c851f934398a251e021e6c3dbaa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4be00528a2064a6bbc6f6dab74a56dff = $('<div id="html_4be00528a2064a6bbc6f6dab74a56dff" style="width: 100.0%; height: 100.0%;">Bayview Stadium         - East Fife - 2000</div>')[0];
+                popup_eb4a0c851f934398a251e021e6c3dbaa.setContent(html_4be00528a2064a6bbc6f6dab74a56dff);
+            
+
+            marker_0e9c97b276b742a58056765a585a1efa.bindPopup(popup_eb4a0c851f934398a251e021e6c3dbaa)
+            ;
+
+            
+        
+    
+        var marker_dadda1934134426d8b52ed7a2e0c87d8 = L.marker(
+            [52.5655, -1.99053],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_65f03f0b055e45fa9288533678dee1b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dadda1934134426d8b52ed7a2e0c87d8.setIcon(icon_65f03f0b055e45fa9288533678dee1b5);
+            
+    
+            var popup_f659ce50766244a6b433ab4f60041d85 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_02ad5e212efb4383b0bab4bf19e8513d = $('<div id="html_02ad5e212efb4383b0bab4bf19e8513d" style="width: 100.0%; height: 100.0%;">Bescot Stadium         - Walsall - 11300</div>')[0];
+                popup_f659ce50766244a6b433ab4f60041d85.setContent(html_02ad5e212efb4383b0bab4bf19e8513d);
+            
+
+            marker_dadda1934134426d8b52ed7a2e0c87d8.bindPopup(popup_f659ce50766244a6b433ab4f60041d85)
+            ;
+
+            
+        
+    
+        var marker_de87baf9578647ecb3fbf3d251a25b51 = L.marker(
+            [53.8046, -3.04834],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_1ec0f1893f854abdb0291fbc5183ad0c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de87baf9578647ecb3fbf3d251a25b51.setIcon(icon_1ec0f1893f854abdb0291fbc5183ad0c);
+            
+    
+            var popup_93955e5100454b48a60b776afc0daebb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f08d2d8eb0364d32809c6e92fc20a40c = $('<div id="html_f08d2d8eb0364d32809c6e92fc20a40c" style="width: 100.0%; height: 100.0%;">Bloomfield Road         - Blackpool - 16220</div>')[0];
+                popup_93955e5100454b48a60b776afc0daebb.setContent(html_f08d2d8eb0364d32809c6e92fc20a40c);
+            
+
+            marker_de87baf9578647ecb3fbf3d251a25b51.bindPopup(popup_93955e5100454b48a60b776afc0daebb)
+            ;
+
+            
+        
+    
+        var marker_4ccab3bb007f43f398b364391006bdcb = L.marker(
+            [53.9695, -1.08833],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_6b3733511cf14cc3bf9ce954f8378ff4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ccab3bb007f43f398b364391006bdcb.setIcon(icon_6b3733511cf14cc3bf9ce954f8378ff4);
+            
+    
+            var popup_d3bf21a65abc4cdeaac0854f270cc5d3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59cab65b48844e3abe9daae84ecc1726 = $('<div id="html_59cab65b48844e3abe9daae84ecc1726" style="width: 100.0%; height: 100.0%;">Bootham Crescent         - York City - 7872</div>')[0];
+                popup_d3bf21a65abc4cdeaac0854f270cc5d3.setContent(html_59cab65b48844e3abe9daae84ecc1726);
+            
+
+            marker_4ccab3bb007f43f398b364391006bdcb.bindPopup(popup_d3bf21a65abc4cdeaac0854f270cc5d3)
+            ;
+
+            
+        
+    
+        var marker_7b4ead4d195c4a9c882d869177b9c07e = L.marker(
+            [57.6518, -3.3209],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_a4842215beb642499852dcbcb3463eea = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7b4ead4d195c4a9c882d869177b9c07e.setIcon(icon_a4842215beb642499852dcbcb3463eea);
+            
+    
+            var popup_87a04fa501264310ba716b21655eabb2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ac8765c1a8f04e92ad7b24788049ea7e = $('<div id="html_ac8765c1a8f04e92ad7b24788049ea7e" style="width: 100.0%; height: 100.0%;">Borough Briggs         - Elgin City - 4927</div>')[0];
+                popup_87a04fa501264310ba716b21655eabb2.setContent(html_ac8765c1a8f04e92ad7b24788049ea7e);
+            
+
+            marker_7b4ead4d195c4a9c882d869177b9c07e.bindPopup(popup_87a04fa501264310ba716b21655eabb2)
+            ;
+
+            
+        
+    
+        var marker_59429e3c2a374e0fa2ce78fdcb617f19 = L.marker(
+            [53.5551, -2.12847],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_5213ac68f24e4a6bb732f21b39138007 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_59429e3c2a374e0fa2ce78fdcb617f19.setIcon(icon_5213ac68f24e4a6bb732f21b39138007);
+            
+    
+            var popup_1b87bc562aed49b59e98b8386bb8df82 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_323839d784704e53958dae2de203ef7d = $('<div id="html_323839d784704e53958dae2de203ef7d" style="width: 100.0%; height: 100.0%;">Boundary Park         - Oldham Athletic - 10638</div>')[0];
+                popup_1b87bc562aed49b59e98b8386bb8df82.setContent(html_323839d784704e53958dae2de203ef7d);
+            
+
+            marker_59429e3c2a374e0fa2ce78fdcb617f19.bindPopup(popup_1b87bc562aed49b59e98b8386bb8df82)
+            ;
+
+            
+        
+    
+        var marker_fb75203bcc67417585d8108e342d1063 = L.marker(
+            [51.5601, -0.012551],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_7ab4a58385074ba69cddf315b1ae3cd3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fb75203bcc67417585d8108e342d1063.setIcon(icon_7ab4a58385074ba69cddf315b1ae3cd3);
+            
+    
+            var popup_57172ad98d5a4623a74d4d108e647259 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d753ac4f06a4439abddb14628947ab8 = $('<div id="html_7d753ac4f06a4439abddb14628947ab8" style="width: 100.0%; height: 100.0%;">Brisbane Road         - Leyton Orient - 9271</div>')[0];
+                popup_57172ad98d5a4623a74d4d108e647259.setContent(html_7d753ac4f06a4439abddb14628947ab8);
+            
+
+            marker_fb75203bcc67417585d8108e342d1063.bindPopup(popup_57172ad98d5a4623a74d4d108e647259)
+            ;
+
+            
+        
+    
+        var marker_7971d72e81444bbfa898f3745d7cbd1b = L.marker(
+            [51.0996, -0.194579],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_8a1abac92cf64646aa18ed8ed9ec756b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7971d72e81444bbfa898f3745d7cbd1b.setIcon(icon_8a1abac92cf64646aa18ed8ed9ec756b);
+            
+    
+            var popup_f474d1c17e85468095b79ba19be3941c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8f41167ac3c346d5bdc9317194a9e294 = $('<div id="html_8f41167ac3c346d5bdc9317194a9e294" style="width: 100.0%; height: 100.0%;">Broadfield Stadium         - Crawley Town - 5996</div>')[0];
+                popup_f474d1c17e85468095b79ba19be3941c.setContent(html_8f41167ac3c346d5bdc9317194a9e294);
+            
+
+            marker_7971d72e81444bbfa898f3745d7cbd1b.bindPopup(popup_f474d1c17e85468095b79ba19be3941c)
+            ;
+
+            
+        
+    
+        var marker_af2f9900979c4df183998092edf71df5 = L.marker(
+            [55.9447, -4.0379],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_141b3cb9c094448ea60dde6ea45a816d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af2f9900979c4df183998092edf71df5.setIcon(icon_141b3cb9c094448ea60dde6ea45a816d);
+            
+    
+            var popup_1fdeb8a57bf8435cbff663d153fe0ff2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2a86bd90e115456485bbfd516dbc6480 = $('<div id="html_2a86bd90e115456485bbfd516dbc6480" style="width: 100.0%; height: 100.0%;">Broadwood Stadium         - Clyde - 8029</div>')[0];
+                popup_1fdeb8a57bf8435cbff663d153fe0ff2.setContent(html_2a86bd90e115456485bbfd516dbc6480);
+            
+
+            marker_af2f9900979c4df183998092edf71df5.bindPopup(popup_1fdeb8a57bf8435cbff663d153fe0ff2)
+            ;
+
+            
+        
+    
+        var marker_cef4e625f86f4d7bb1aab1c17e12a9c0 = L.marker(
+            [54.8955, -2.91365],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_a2a170985eff4245aaf95f90d82edc35 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cef4e625f86f4d7bb1aab1c17e12a9c0.setIcon(icon_a2a170985eff4245aaf95f90d82edc35);
+            
+    
+            var popup_92c603610385464f88e80d5a625c3ac1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1c246ef58ca34424a3bfcb7cb16b624a = $('<div id="html_1c246ef58ca34424a3bfcb7cb16b624a" style="width: 100.0%; height: 100.0%;">Brunton Park         - Carlisle United - 18202</div>')[0];
+                popup_92c603610385464f88e80d5a625c3ac1.setContent(html_1c246ef58ca34424a3bfcb7cb16b624a);
+            
+
+            marker_cef4e625f86f4d7bb1aab1c17e12a9c0.bindPopup(popup_92c603610385464f88e80d5a625c3ac1)
+            ;
+
+            
+        
+    
+        var marker_dfb5e576f0b84f15ab2d8aa9d2b903cd = L.marker(
+            [55.9414, -4.72719],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_f6cbd9c8a2ea408894d521988d9054ab = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dfb5e576f0b84f15ab2d8aa9d2b903cd.setIcon(icon_f6cbd9c8a2ea408894d521988d9054ab);
+            
+    
+            var popup_5dd5945b095c4928a4416ca4578d0f50 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b629d7873e9b4a08a848ed3529667863 = $('<div id="html_b629d7873e9b4a08a848ed3529667863" style="width: 100.0%; height: 100.0%;">Cappielow Park         - Greenock Morton - 19612</div>')[0];
+                popup_5dd5945b095c4928a4416ca4578d0f50.setContent(html_b629d7873e9b4a08a848ed3529667863);
+            
+
+            marker_dfb5e576f0b84f15ab2d8aa9d2b903cd.bindPopup(popup_5dd5945b095c4928a4416ca4578d0f50)
+            ;
+
+            
+        
+    
+        var marker_d3d2cf251d704e9cae6551f5d31dd53b = L.marker(
+            [56.1088, -3.3471699999999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_c0297dfb8ee549e498d3bc623f852606 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d3d2cf251d704e9cae6551f5d31dd53b.setIcon(icon_c0297dfb8ee549e498d3bc623f852606);
+            
+    
+            var popup_f1b967c3898e4e2091c7a897ab0d0e16 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_243a69bea52d4a4eaea96f24071d9bc4 = $('<div id="html_243a69bea52d4a4eaea96f24071d9bc4" style="width: 100.0%; height: 100.0%;">Central Park         - Cowdenbeath - 4370</div>')[0];
+                popup_f1b967c3898e4e2091c7a897ab0d0e16.setContent(html_243a69bea52d4a4eaea96f24071d9bc4);
+            
+
+            marker_d3d2cf251d704e9cae6551f5d31dd53b.bindPopup(popup_f1b967c3898e4e2091c7a897ab0d0e16)
+            ;
+
+            
+        
+    
+        var marker_069d2ace326e4de583dc33f164aa3fdb = L.marker(
+            [55.8602, -4.01145],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_0971eadb04b34235ad834a512cd8e486 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_069d2ace326e4de583dc33f164aa3fdb.setIcon(icon_0971eadb04b34235ad834a512cd8e486);
+            
+    
+            var popup_eee82e77dcc14fb9ab0c1ffd9489f60b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1121f0d2db6247c3864c3538bdaade27 = $('<div id="html_1121f0d2db6247c3864c3538bdaade27" style="width: 100.0%; height: 100.0%;">Cliftonhill         - Albion Rovers - 2496</div>')[0];
+                popup_eee82e77dcc14fb9ab0c1ffd9489f60b.setContent(html_1121f0d2db6247c3864c3538bdaade27);
+            
+
+            marker_069d2ace326e4de583dc33f164aa3fdb.bindPopup(popup_eee82e77dcc14fb9ab0c1ffd9489f60b)
+            ;
+
+            
+        
+    
+        var marker_1d5b9e38fbed4f8ea087620289e4214e = L.marker(
+            [53.7654, -2.37106],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_cd4150ae280b420aa9de87ed89969af8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1d5b9e38fbed4f8ea087620289e4214e.setIcon(icon_cd4150ae280b420aa9de87ed89969af8);
+            
+    
+            var popup_870b9fab5ee7404bbfbc02677622e03e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2bd11d0610a9492cbe37bf81c9e99b2a = $('<div id="html_2bd11d0610a9492cbe37bf81c9e99b2a" style="width: 100.0%; height: 100.0%;">Crown Ground         - Accrington Stanley - 5057</div>')[0];
+                popup_870b9fab5ee7404bbfbc02677622e03e.setContent(html_2bd11d0610a9492cbe37bf81c9e99b2a);
+            
+
+            marker_1d5b9e38fbed4f8ea087620289e4214e.bindPopup(popup_870b9fab5ee7404bbfbc02677622e03e)
+            ;
+
+            
+        
+    
+        var marker_c439ebe224eb4039883d52491dcb21b6 = L.marker(
+            [56.4747, -2.97352],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_22995bd916cc4a47a7a05c0a49964f1a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c439ebe224eb4039883d52491dcb21b6.setIcon(icon_22995bd916cc4a47a7a05c0a49964f1a);
+            
+    
+            var popup_18a6363ea44b42fa96afcce3b4e2752b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_186a0357bdc746c89be7ef7e7f5661ab = $('<div id="html_186a0357bdc746c89be7ef7e7f5661ab" style="width: 100.0%; height: 100.0%;">Dens Park         - Dundee - 11856</div>')[0];
+                popup_18a6363ea44b42fa96afcce3b4e2752b.setContent(html_186a0357bdc746c89be7ef7e7f5661ab);
+            
+
+            marker_c439ebe224eb4039883d52491dcb21b6.bindPopup(popup_18a6363ea44b42fa96afcce3b4e2752b)
+            ;
+
+            
+        
+    
+        var marker_7c20f143981a454dbc0582ca97066f0a = L.marker(
+            [55.9384, -4.56162],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_d4061653b59f4df797473be0d48d36f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7c20f143981a454dbc0582ca97066f0a.setIcon(icon_d4061653b59f4df797473be0d48d36f6);
+            
+    
+            var popup_ccfc7d2996084107ae5fa2c18ba4f13d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d7605b4ec3134302b21fbaba96fa65a3 = $('<div id="html_d7605b4ec3134302b21fbaba96fa65a3" style="width: 100.0%; height: 100.0%;">Dumbarton Football Stadium         - Dumbarton - 2025</div>')[0];
+                popup_ccfc7d2996084107ae5fa2c18ba4f13d.setContent(html_d7605b4ec3134302b21fbaba96fa65a3);
+            
+
+            marker_7c20f143981a454dbc0582ca97066f0a.bindPopup(popup_ccfc7d2996084107ae5fa2c18ba4f13d)
+            ;
+
+            
+        
+    
+        var marker_349b50ce7dd141eba316a23180b96788 = L.marker(
+            [56.0756, -3.44196],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_8489b93ea463458a8019977e2dcad013 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_349b50ce7dd141eba316a23180b96788.setIcon(icon_8489b93ea463458a8019977e2dcad013);
+            
+    
+            var popup_4286488fb4cb4a09af9146e06af9ae2d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_554125a580ca493ebc8bf6b905757737 = $('<div id="html_554125a580ca493ebc8bf6b905757737" style="width: 100.0%; height: 100.0%;">East End Park         - Dunfermline - 11380</div>')[0];
+                popup_4286488fb4cb4a09af9146e06af9ae2d.setContent(html_554125a580ca493ebc8bf6b905757737);
+            
+
+            marker_349b50ce7dd141eba316a23180b96788.bindPopup(popup_4286488fb4cb4a09af9146e06af9ae2d)
+            ;
+
+            
+        
+    
+        var marker_2d625ac9060840e9b8b1a21326bce29b = L.marker(
+            [52.0607, -2.71774],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_32e40cbfec8a42eab43d7bef80a9a2f2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2d625ac9060840e9b8b1a21326bce29b.setIcon(icon_32e40cbfec8a42eab43d7bef80a9a2f2);
+            
+    
+            var popup_984d230608b8415e85e7973ae6e5e0af = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b2e48468a5949e491bec2d05fbba729 = $('<div id="html_6b2e48468a5949e491bec2d05fbba729" style="width: 100.0%; height: 100.0%;">Edgar Street         - Hereford United - 5300</div>')[0];
+                popup_984d230608b8415e85e7973ae6e5e0af.setContent(html_6b2e48468a5949e491bec2d05fbba729);
+            
+
+            marker_2d625ac9060840e9b8b1a21326bce29b.bindPopup(popup_984d230608b8415e85e7973ae6e5e0af)
+            ;
+
+            
+        
+    
+        var marker_568266bc2d23435d847f6b6ecd2f3b16 = L.marker(
+            [56.0053, -3.75262],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_f97f6e2f3c6742e5af4241e2f3389c52 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_568266bc2d23435d847f6b6ecd2f3b16.setIcon(icon_f97f6e2f3c6742e5af4241e2f3389c52);
+            
+    
+            var popup_0d3b60ecd55b4d72acd1d6f71c96909d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_434a52446c2548beb3dd39bc8bc41494 = $('<div id="html_434a52446c2548beb3dd39bc8bc41494" style="width: 100.0%; height: 100.0%;">Falkirk Stadium         - Falkirk - 9200</div>')[0];
+                popup_0d3b60ecd55b4d72acd1d6f71c96909d.setContent(html_434a52446c2548beb3dd39bc8bc41494);
+            
+
+            marker_568266bc2d23435d847f6b6ecd2f3b16.bindPopup(popup_0d3b60ecd55b4d72acd1d6f71c96909d)
+            ;
+
+            
+        
+    
+        var marker_425cedb87dbe4cd398ff3ceddc5612e7 = L.marker(
+            [53.1378, -1.2013],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_317141c3e50b48e29742e247fcad3982 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_425cedb87dbe4cd398ff3ceddc5612e7.setIcon(icon_317141c3e50b48e29742e247fcad3982);
+            
+    
+            var popup_969301b838484247815f3764c3c27515 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5ff1bf58ae2446da91115930d2699ca7 = $('<div id="html_5ff1bf58ae2446da91115930d2699ca7" style="width: 100.0%; height: 100.0%;">Field Mill         - Mansfield Town - 9186</div>')[0];
+                popup_969301b838484247815f3764c3c27515.setContent(html_5ff1bf58ae2446da91115930d2699ca7);
+            
+
+            marker_425cedb87dbe4cd398ff3ceddc5612e7.bindPopup(popup_969301b838484247815f3764c3c27515)
+            ;
+
+            
+        
+    
+        var marker_5604d0b554a54560ba2c6538b8ea653b = L.marker(
+            [55.7804, -3.9803],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_94e34ad2a2174862afc300c52f8415bc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5604d0b554a54560ba2c6538b8ea653b.setIcon(icon_94e34ad2a2174862afc300c52f8415bc);
+            
+    
+            var popup_e48b3b146fd54864981993753c3f194a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_21c8e78fb8f74605842c42752f381888 = $('<div id="html_21c8e78fb8f74605842c42752f381888" style="width: 100.0%; height: 100.0%;">Fir Park         - Motherwell - 13742</div>')[0];
+                popup_e48b3b146fd54864981993753c3f194a.setContent(html_21c8e78fb8f74605842c42752f381888);
+            
+
+            marker_5604d0b554a54560ba2c6538b8ea653b.bindPopup(popup_e48b3b146fd54864981993753c3f194a)
+            ;
+
+            
+        
+    
+        var marker_8f10d75b07b24957b18ef4100461945a = L.marker(
+            [55.8815, -4.26938],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_f4287bc034dd44ed989517c8911af723 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f10d75b07b24957b18ef4100461945a.setIcon(icon_f4287bc034dd44ed989517c8911af723);
+            
+    
+            var popup_311f00cebc894aee9187f302fa25252a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9b33ddcb50714ae297e459e50f8ccdb6 = $('<div id="html_9b33ddcb50714ae297e459e50f8ccdb6" style="width: 100.0%; height: 100.0%;">Firhill         - Partick Thistle - 13079</div>')[0];
+                popup_311f00cebc894aee9187f302fa25252a.setContent(html_9b33ddcb50714ae297e459e50f8ccdb6);
+            
+
+            marker_8f10d75b07b24957b18ef4100461945a.bindPopup(popup_311f00cebc894aee9187f302fa25252a)
+            ;
+
+            
+        
+    
+        var marker_80f1248d72f540bb8ef685f3eb71f4f7 = L.marker(
+            [56.1191, -3.91194],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_69504d77e0a54fa9bb3ee9f4f2d8d881 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_80f1248d72f540bb8ef685f3eb71f4f7.setIcon(icon_69504d77e0a54fa9bb3ee9f4f2d8d881);
+            
+    
+            var popup_c3c12dce40b445ac8dbe08ad300d0bd2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c48484679f4d4506baff1d76bced3ddc = $('<div id="html_c48484679f4d4506baff1d76bced3ddc" style="width: 100.0%; height: 100.0%;">Forthbank Stadium         - Stirling Albion - 3808</div>')[0];
+                popup_c3c12dce40b445ac8dbe08ad300d0bd2.setContent(html_c48484679f4d4506baff1d76bced3ddc);
+            
+
+            marker_80f1248d72f540bb8ef685f3eb71f4f7.bindPopup(popup_c3c12dce40b445ac8dbe08ad300d0bd2)
+            ;
+
+            
+        
+    
+        var marker_9285da26677a4f92a5b9dce51bd2812a = L.marker(
+            [54.9948, -3.2612],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_2c000e4bfc3447acb77996025bd5a58c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9285da26677a4f92a5b9dce51bd2812a.setIcon(icon_2c000e4bfc3447acb77996025bd5a58c);
+            
+    
+            var popup_91926b70aba7471fa47538781421653b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_06fef5afdf3448bf9060a9a0541898ab = $('<div id="html_06fef5afdf3448bf9060a9a0541898ab" style="width: 100.0%; height: 100.0%;">Galabank         - Annan Athletic - 2007</div>')[0];
+                popup_91926b70aba7471fa47538781421653b.setContent(html_06fef5afdf3448bf9060a9a0541898ab);
+            
+
+            marker_9285da26677a4f92a5b9dce51bd2812a.bindPopup(popup_91926b70aba7471fa47538781421653b)
+            ;
+
+            
+        
+    
+        var marker_e7aecb9cbda145ff9d2754e364f0b27c = L.marker(
+            [56.5523, -2.5914],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_ccd15c1106e94482948adb8c7a4efb40 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e7aecb9cbda145ff9d2754e364f0b27c.setIcon(icon_ccd15c1106e94482948adb8c7a4efb40);
+            
+    
+            var popup_84fe74d296be43eba47f91809f20d68a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_87799e9d2c074782ae6f5986c891d49f = $('<div id="html_87799e9d2c074782ae6f5986c891d49f" style="width: 100.0%; height: 100.0%;">Gayfield Park         - Arbroath - 5940</div>')[0];
+                popup_84fe74d296be43eba47f91809f20d68a.setContent(html_87799e9d2c074782ae6f5986c891d49f);
+            
+
+            marker_e7aecb9cbda145ff9d2754e364f0b27c.bindPopup(popup_84fe74d296be43eba47f91809f20d68a)
+            ;
+
+            
+        
+    
+        var marker_35319cdc353c44be8bdebc452d9253f6 = L.marker(
+            [53.5805, -2.29487],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_d9f561ef339643d6878f0265a9dcf5a6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35319cdc353c44be8bdebc452d9253f6.setIcon(icon_d9f561ef339643d6878f0265a9dcf5a6);
+            
+    
+            var popup_1ddfe075751d4f22aff72687d3d42f4d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a938ef8c96944e729c8981a223712e99 = $('<div id="html_a938ef8c96944e729c8981a223712e99" style="width: 100.0%; height: 100.0%;">Gigg Lane         - Bury - 11840</div>')[0];
+                popup_1ddfe075751d4f22aff72687d3d42f4d.setContent(html_a938ef8c96944e729c8981a223712e99);
+            
+
+            marker_35319cdc353c44be8bdebc452d9253f6.bindPopup(popup_1ddfe075751d4f22aff72687d3d42f4d)
+            ;
+
+            
+        
+    
+        var marker_6bb0b4d2516a4616b374457a911c5cc0 = L.marker(
+            [53.5867, -0.695244],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_b7d9267fad4d4401910c3f51592c69e0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6bb0b4d2516a4616b374457a911c5cc0.setIcon(icon_b7d9267fad4d4401910c3f51592c69e0);
+            
+    
+            var popup_7a2dd10fc53c4b2a83fc5269352a6218 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_04a3b8f35c784c4dae47d6eb4056e570 = $('<div id="html_04a3b8f35c784c4dae47d6eb4056e570" style="width: 100.0%; height: 100.0%;">Glanford Park         - Scunthorpe United - 9088</div>')[0];
+                popup_7a2dd10fc53c4b2a83fc5269352a6218.setContent(html_04a3b8f35c784c4dae47d6eb4056e570);
+            
+
+            marker_6bb0b4d2516a4616b374457a911c5cc0.bindPopup(popup_7a2dd10fc53c4b2a83fc5269352a6218)
+            ;
+
+            
+        
+    
+        var marker_6765626da5374cdd8f0b5853adfde3b2 = L.marker(
+            [56.7353, -2.6565],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_6887db36132b405abdbe869f9c5b2255 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6765626da5374cdd8f0b5853adfde3b2.setIcon(icon_6887db36132b405abdbe869f9c5b2255);
+            
+    
+            var popup_819d33e6569d4cb2bc29b3504b90a9a3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2b2817e4e1a54807a76ae2ee9be51799 = $('<div id="html_2b2817e4e1a54807a76ae2ee9be51799" style="width: 100.0%; height: 100.0%;">Glebe Park         - Brechin City - 3960</div>')[0];
+                popup_819d33e6569d4cb2bc29b3504b90a9a3.setContent(html_2b2817e4e1a54807a76ae2ee9be51799);
+            
+
+            marker_6765626da5374cdd8f0b5853adfde3b2.bindPopup(popup_819d33e6569d4cb2bc29b3504b90a9a3)
+            ;
+
+            
+        
+    
+        var marker_9885feeb719648eb978669c94946d887 = L.marker(
+            [54.0675, -2.84707],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_678a663924294d518d9388332204e22b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9885feeb719648eb978669c94946d887.setIcon(icon_678a663924294d518d9388332204e22b);
+            
+    
+            var popup_887288cc642948d9a617fa1a360e0856 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1ddf4e3613834b299160c011b696fd47 = $('<div id="html_1ddf4e3613834b299160c011b696fd47" style="width: 100.0%; height: 100.0%;">Globe Arena         - Morecambe - 6476</div>')[0];
+                popup_887288cc642948d9a617fa1a360e0856.setContent(html_1ddf4e3613834b299160c011b696fd47);
+            
+
+            marker_9885feeb719648eb978669c94946d887.bindPopup(popup_887288cc642948d9a617fa1a360e0856)
+            ;
+
+            
+        
+    
+        var marker_11a42a87f6614458a0c4cb9ef14e11da = L.marker(
+            [51.4882, -0.30262100000000003],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_15b7b8116de4444c9906f58e1b51dd16 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11a42a87f6614458a0c4cb9ef14e11da.setIcon(icon_15b7b8116de4444c9906f58e1b51dd16);
+            
+    
+            var popup_69417f5be00a4891863224d34ea32d9d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c6b3a8aae42243b0b608b9108b55d379 = $('<div id="html_c6b3a8aae42243b0b608b9108b55d379" style="width: 100.0%; height: 100.0%;">Griffin Park         - Brentford - 12763</div>')[0];
+                popup_69417f5be00a4891863224d34ea32d9d.setContent(html_c6b3a8aae42243b0b608b9108b55d379);
+            
+
+            marker_11a42a87f6614458a0c4cb9ef14e11da.bindPopup(popup_69417f5be00a4891863224d34ea32d9d)
+            ;
+
+            
+        
+    
+        var marker_8845eab8e8fc44e8b20bb6dbc04f67b1 = L.marker(
+            [53.9165, -3.02484],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_c0512c9bfbf345578ca754d46b4f485f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8845eab8e8fc44e8b20bb6dbc04f67b1.setIcon(icon_c0512c9bfbf345578ca754d46b4f485f);
+            
+    
+            var popup_3f68d30b81dc4ef9b42b88b69686efcd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f43fcc7ba1b42dab057d44651b2cc80 = $('<div id="html_1f43fcc7ba1b42dab057d44651b2cc80" style="width: 100.0%; height: 100.0%;">Highbury Stadium         - Fleetwood Town - 5094</div>')[0];
+                popup_3f68d30b81dc4ef9b42b88b69686efcd.setContent(html_1f43fcc7ba1b42dab057d44651b2cc80);
+            
+
+            marker_8845eab8e8fc44e8b20bb6dbc04f67b1.bindPopup(popup_3f68d30b81dc4ef9b42b88b69686efcd)
+            ;
+
+            
+        
+    
+        var marker_893be2024d954dcca8647803859c4783 = L.marker(
+            [50.3882, -4.15076],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_49e9669b757548b9b5b083cc3cd1a8f9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_893be2024d954dcca8647803859c4783.setIcon(icon_49e9669b757548b9b5b083cc3cd1a8f9);
+            
+    
+            var popup_dfd00a3a1a0c4fd59d14b7c87e977203 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_963c9dfa4b8b4d2a8454a9866e2228ef = $('<div id="html_963c9dfa4b8b4d2a8454a9866e2228ef" style="width: 100.0%; height: 100.0%;">Home Park         - Plymouth Argyle - 16388</div>')[0];
+                popup_dfd00a3a1a0c4fd59d14b7c87e977203.setContent(html_963c9dfa4b8b4d2a8454a9866e2228ef);
+            
+
+            marker_893be2024d954dcca8647803859c4783.bindPopup(popup_dfd00a3a1a0c4fd59d14b7c87e977203)
+            ;
+
+            
+        
+    
+        var marker_d6f14ec60a1b439da2c2e9637a242c21 = L.marker(
+            [50.9503, -2.6738299999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_2179e386a48d41038825e2356246dcae = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6f14ec60a1b439da2c2e9637a242c21.setIcon(icon_2179e386a48d41038825e2356246dcae);
+            
+    
+            var popup_64c549ffb7ca47648624a0a41e9b4c23 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3317e730af704162a52eb4f94ccc5d30 = $('<div id="html_3317e730af704162a52eb4f94ccc5d30" style="width: 100.0%; height: 100.0%;">Huish Park         - Yeovil Town - 9665</div>')[0];
+                popup_64c549ffb7ca47648624a0a41e9b4c23.setContent(html_3317e730af704162a52eb4f94ccc5d30);
+            
+
+            marker_d6f14ec60a1b439da2c2e9637a242c21.bindPopup(popup_64c549ffb7ca47648624a0a41e9b4c23)
+            ;
+
+            
+        
+    
+        var marker_b15bf3fe0c5e452094f12ee5bb9adfa9 = L.marker(
+            [51.7164, -1.20775],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_40e5d2b5b61d4cf0ad3c7211704712e6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b15bf3fe0c5e452094f12ee5bb9adfa9.setIcon(icon_40e5d2b5b61d4cf0ad3c7211704712e6);
+            
+    
+            var popup_1f2f312af67c4c8089fbd96af1361768 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_01e0e24b7be2413480c10e8b2f3741b3 = $('<div id="html_01e0e24b7be2413480c10e8b2f3741b3" style="width: 100.0%; height: 100.0%;">Kassam Stadium         - Oxford United - 12500</div>')[0];
+                popup_1f2f312af67c4c8089fbd96af1361768.setContent(html_01e0e24b7be2413480c10e8b2f3741b3);
+            
+
+            marker_b15bf3fe0c5e452094f12ee5bb9adfa9.bindPopup(popup_1f2f312af67c4c8089fbd96af1361768)
+            ;
+
+            
+        
+    
+        var marker_149041ff120f44dea2310037c7043c50 = L.marker(
+            [53.5099, -1.11382],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_4f4bbf4283c64226a6a2616b0bc14ef3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_149041ff120f44dea2310037c7043c50.setIcon(icon_4f4bbf4283c64226a6a2616b0bc14ef3);
+            
+    
+            var popup_f89ab78d92df45babc17b6e2a091deb1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_876578f761c3491b9b1fb1f92157522d = $('<div id="html_876578f761c3491b9b1fb1f92157522d" style="width: 100.0%; height: 100.0%;">Keepmoat Stadium         - Doncaster Rovers - 15231</div>')[0];
+                popup_f89ab78d92df45babc17b6e2a091deb1.setContent(html_876578f761c3491b9b1fb1f92157522d);
+            
+
+            marker_149041ff120f44dea2310037c7043c50.bindPopup(popup_f89ab78d92df45babc17b6e2a091deb1)
+            ;
+
+            
+        
+    
+        var marker_ed7d6bc12adb44969dff4f8f8dde31f4 = L.marker(
+            [51.8842, -0.43155],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_95da1209228c4ef897b302eae1247fcf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed7d6bc12adb44969dff4f8f8dde31f4.setIcon(icon_95da1209228c4ef897b302eae1247fcf);
+            
+    
+            var popup_5c35073fec4f45af836db454ad40f407 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c5761f0e9b447ea886e8b68c7addf65 = $('<div id="html_9c5761f0e9b447ea886e8b68c7addf65" style="width: 100.0%; height: 100.0%;">Kenilworth Road         - Luton Town - 10226</div>')[0];
+                popup_5c35073fec4f45af836db454ad40f407.setContent(html_9c5761f0e9b447ea886e8b68c7addf65);
+            
+
+            marker_ed7d6bc12adb44969dff4f8f8dde31f4.bindPopup(popup_5c35073fec4f45af836db454ad40f407)
+            ;
+
+            
+        
+    
+        var marker_5b3e9e0e161b45229591098b616ee404 = L.marker(
+            [51.4051, -0.281984],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_7f8f5e6ca7d549b5825991b356149c3e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5b3e9e0e161b45229591098b616ee404.setIcon(icon_7f8f5e6ca7d549b5825991b356149c3e);
+            
+    
+            var popup_ca25552ecb0b417cb7a21103791c2357 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de89eac90cb94e6d959f32d2b09b3b6b = $('<div id="html_de89eac90cb94e6d959f32d2b09b3b6b" style="width: 100.0%; height: 100.0%;">Kingsmeadow         - AFC Wimbledon, Kingstonian - 4720</div>')[0];
+                popup_ca25552ecb0b417cb7a21103791c2357.setContent(html_de89eac90cb94e6d959f32d2b09b3b6b);
+            
+
+            marker_5b3e9e0e161b45229591098b616ee404.bindPopup(popup_ca25552ecb0b417cb7a21103791c2357)
+            ;
+
+            
+        
+    
+        var marker_5710418b033f46e8a0aa1bd40d184994 = L.marker(
+            [56.714, -2.45902],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_3358a0f6a2ea4f4da7bb7ea8f68a47b6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5710418b033f46e8a0aa1bd40d184994.setIcon(icon_3358a0f6a2ea4f4da7bb7ea8f68a47b6);
+            
+    
+            var popup_a45e808ba1384ff798de24719ca3a8ba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d7a74e53c6d94cb0a080f19b2be0ee0c = $('<div id="html_d7a74e53c6d94cb0a080f19b2be0ee0c" style="width: 100.0%; height: 100.0%;">Links Park         - Montrose - 3292</div>')[0];
+                popup_a45e808ba1384ff798de24719ca3a8ba.setContent(html_d7a74e53c6d94cb0a080f19b2be0ee0c);
+            
+
+            marker_5710418b033f46e8a0aa1bd40d184994.bindPopup(popup_a45e808ba1384ff798de24719ca3a8ba)
+            ;
+
+            
+        
+    
+        var marker_8834ddabb2f24aa98de827821a8f7a10 = L.marker(
+            [51.5093, -0.232204],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_8165ea853f904259bad97f7a1936c82d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8834ddabb2f24aa98de827821a8f7a10.setIcon(icon_8165ea853f904259bad97f7a1936c82d);
+            
+    
+            var popup_36a775c5e8a1426c9540adb5144283cb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5ae4092f11ad4d3dbd1e15c2539a3007 = $('<div id="html_5ae4092f11ad4d3dbd1e15c2539a3007" style="width: 100.0%; height: 100.0%;">Loftus Road         - Queens Park Rangers - 18360</div>')[0];
+                popup_36a775c5e8a1426c9540adb5144283cb.setContent(html_5ae4092f11ad4d3dbd1e15c2539a3007);
+            
+
+            marker_8834ddabb2f24aa98de827821a8f7a10.bindPopup(popup_36a775c5e8a1426c9540adb5144283cb)
+            ;
+
+            
+        
+    
+        var marker_8fde3b24bbfc497b964f72ba0f9de3a2 = L.marker(
+            [52.5648, -0.240434],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_8ff2e2c6fe024991864a8f375da5a620 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8fde3b24bbfc497b964f72ba0f9de3a2.setIcon(icon_8ff2e2c6fe024991864a8f375da5a620);
+            
+    
+            var popup_e80f13fff2a44d16bc36d4c45c88e788 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_07ec0c944f83489dbb1deebebdc2cfbf = $('<div id="html_07ec0c944f83489dbb1deebebdc2cfbf" style="width: 100.0%; height: 100.0%;">London Road         - Peterborough United - 15315</div>')[0];
+                popup_e80f13fff2a44d16bc36d4c45c88e788.setContent(html_07ec0c944f83489dbb1deebebdc2cfbf);
+            
+
+            marker_8fde3b24bbfc497b964f72ba0f9de3a2.bindPopup(popup_e80f13fff2a44d16bc36d4c45c88e788)
+            ;
+
+            
+        
+    
+        var marker_58595c084cfe48bca9487fea55f1d54e = L.marker(
+            [56.4099, -3.47684],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_ee23b49b65e44ef5a2977fa6a328a17c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_58595c084cfe48bca9487fea55f1d54e.setIcon(icon_ee23b49b65e44ef5a2977fa6a328a17c);
+            
+    
+            var popup_7873f077086d486b8b206fff41c81e0d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62bcfe2544e54b6488a349ca34dc8c02 = $('<div id="html_62bcfe2544e54b6488a349ca34dc8c02" style="width: 100.0%; height: 100.0%;">McDiarmid Park         - St Johnstone - 10673</div>')[0];
+                popup_7873f077086d486b8b206fff41c81e0d.setContent(html_62bcfe2544e54b6488a349ca34dc8c02);
+            
+
+            marker_58595c084cfe48bca9487fea55f1d54e.bindPopup(popup_7873f077086d486b8b206fff41c81e0d)
+            ;
+
+            
+        
+    
+        var marker_f43511fca59f4d1eae707945ca144d4c = L.marker(
+            [51.4862, -2.58315],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_9763ebce13f64c1c819099471ee28acb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f43511fca59f4d1eae707945ca144d4c.setIcon(icon_9763ebce13f64c1c819099471ee28acb);
+            
+    
+            var popup_08465481d7c84392822521738d9f0afc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_da7563aef1ec4231ac95d844a6f45884 = $('<div id="html_da7563aef1ec4231ac95d844a6f45884" style="width: 100.0%; height: 100.0%;">Memorial Stadium         - Bristol Rovers - 12011</div>')[0];
+                popup_08465481d7c84392822521738d9f0afc.setContent(html_da7563aef1ec4231ac95d844a6f45884);
+            
+
+            marker_f43511fca59f4d1eae707945ca144d4c.bindPopup(popup_08465481d7c84392822521738d9f0afc)
+            ;
+
+            
+        
+    
+        var marker_02715abd7b3d427c952ee58e2d356da5 = L.marker(
+            [53.2427, -2.127],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_b278e04e3edc4392a4709c8acb16f28a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_02715abd7b3d427c952ee58e2d356da5.setIcon(icon_b278e04e3edc4392a4709c8acb16f28a);
+            
+    
+            var popup_7fb93c646f614a01aad874ab77323ed2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_727a6b768dc24840a4f36f54a0f112c3 = $('<div id="html_727a6b768dc24840a4f36f54a0f112c3" style="width: 100.0%; height: 100.0%;">Moss Rose         - Macclesfield Town - 6355</div>')[0];
+                popup_7fb93c646f614a01aad874ab77323ed2.setContent(html_727a6b768dc24840a4f36f54a0f112c3);
+            
+
+            marker_02715abd7b3d427c952ee58e2d356da5.bindPopup(popup_7fb93c646f614a01aad874ab77323ed2)
+            ;
+
+            
+        
+    
+        var marker_646403b7224c4f3d84f4739eba5bc12b = L.marker(
+            [55.8601, -3.9599699999999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_6291ee66f3ae4f0a8f55aae4643fb2b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_646403b7224c4f3d84f4739eba5bc12b.setIcon(icon_6291ee66f3ae4f0a8f55aae4643fb2b5);
+            
+    
+            var popup_f3f6c0c938054facb14196a3d295951c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6a4eb69371014930ae88835d963f6fd2 = $('<div id="html_6a4eb69371014930ae88835d963f6fd2" style="width: 100.0%; height: 100.0%;">New Broomfield         - Airdrie United - 10172</div>')[0];
+                popup_f3f6c0c938054facb14196a3d295951c.setContent(html_6a4eb69371014930ae88835d963f6fd2);
+            
+
+            marker_646403b7224c4f3d84f4739eba5bc12b.bindPopup(popup_f3f6c0c938054facb14196a3d295951c)
+            ;
+
+            
+        
+    
+        var marker_fe42c3f96bea477f9cf76940665b47a5 = L.marker(
+            [55.7821, -4.058],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_c2cad4a95e7441f3b8607e42d3bc0f79 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fe42c3f96bea477f9cf76940665b47a5.setIcon(icon_c2cad4a95e7441f3b8607e42d3bc0f79);
+            
+    
+            var popup_9cba4b42dea04c4da82f9964810a21e0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fa5b4c2485b24a7f9b9260152ec71962 = $('<div id="html_fa5b4c2485b24a7f9b9260152ec71962" style="width: 100.0%; height: 100.0%;">New Douglas Park         - Hamilton Academical - 6078</div>')[0];
+                popup_9cba4b42dea04c4da82f9964810a21e0.setContent(html_fa5b4c2485b24a7f9b9260152ec71962);
+            
+
+            marker_fe42c3f96bea477f9cf76940665b47a5.bindPopup(popup_9cba4b42dea04c4da82f9964810a21e0)
+            ;
+
+            
+        
+    
+        var marker_490631ba822c4bd7944c14f5b6bbd0b3 = L.marker(
+            [52.6886, -2.74931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_acd2e202a7494a05854b88bfdefdf001 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_490631ba822c4bd7944c14f5b6bbd0b3.setIcon(icon_acd2e202a7494a05854b88bfdefdf001);
+            
+    
+            var popup_df18d54ec9fb4d51b1d08c96970b14ff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b87ec4ed00bb43ae9aac56588e21cc08 = $('<div id="html_b87ec4ed00bb43ae9aac56588e21cc08" style="width: 100.0%; height: 100.0%;">New Meadow         - Shrewsbury Town - 9875</div>')[0];
+                popup_df18d54ec9fb4d51b1d08c96970b14ff.setContent(html_b87ec4ed00bb43ae9aac56588e21cc08);
+            
+
+            marker_490631ba822c4bd7944c14f5b6bbd0b3.bindPopup(popup_df18d54ec9fb4d51b1d08c96970b14ff)
+            ;
+
+            
+        
+    
+        var marker_a0aa8e54c15846f2af952573717d1de7 = L.marker(
+            [53.4281, -1.36172],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_cde436a3f2704b7da951d87260a90bd5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a0aa8e54c15846f2af952573717d1de7.setIcon(icon_cde436a3f2704b7da951d87260a90bd5);
+            
+    
+            var popup_4fec65c301e84b4bbd5c7d352a9ea81e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62eb2c5974134e9fb4ef7501820c3e5e = $('<div id="html_62eb2c5974134e9fb4ef7501820c3e5e" style="width: 100.0%; height: 100.0%;">New York Stadium         - Rotherham United - 12021</div>')[0];
+                popup_4fec65c301e84b4bbd5c7d352a9ea81e.setContent(html_62eb2c5974134e9fb4ef7501820c3e5e);
+            
+
+            marker_a0aa8e54c15846f2af952573717d1de7.bindPopup(popup_4fec65c301e84b4bbd5c7d352a9ea81e)
+            ;
+
+            
+        
+    
+        var marker_e4260c95f59741878597239ee200b750 = L.marker(
+            [56.0282, -3.81449],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_4228df999ce24706b61a42113a87f166 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4260c95f59741878597239ee200b750.setIcon(icon_4228df999ce24706b61a42113a87f166);
+            
+    
+            var popup_d1f2a5023dd04720915308d5ca009587 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_86b758b088004e31b957b284a18a9b2e = $('<div id="html_86b758b088004e31b957b284a18a9b2e" style="width: 100.0%; height: 100.0%;">Ochilview Park         - Stenhousemuir, East Stirlingshire - 3776</div>')[0];
+                popup_d1f2a5023dd04720915308d5ca009587.setContent(html_86b758b088004e31b957b284a18a9b2e);
+            
+
+            marker_e4260c95f59741878597239ee200b750.bindPopup(popup_d1f2a5023dd04720915308d5ca009587)
+            ;
+
+            
+        
+    
+        var marker_d4841232fb254599bdf61e629faf3fe2 = L.marker(
+            [55.0703, -3.6246],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_33344333166f42a785a905bd2f28dedd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d4841232fb254599bdf61e629faf3fe2.setIcon(icon_33344333166f42a785a905bd2f28dedd);
+            
+    
+            var popup_3b37ff7e7f414a0dbafccb739343f72e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9f035c1a4a874e3499992e20b37a89ba = $('<div id="html_9f035c1a4a874e3499992e20b37a89ba" style="width: 100.0%; height: 100.0%;">Palmerston Park         - Queen of the South - 6412</div>')[0];
+                popup_3b37ff7e7f414a0dbafccb739343f72e.setContent(html_9f035c1a4a874e3499992e20b37a89ba);
+            
+
+            marker_d4841232fb254599bdf61e629faf3fe2.bindPopup(popup_3b37ff7e7f414a0dbafccb739343f72e)
+            ;
+
+            
+        
+    
+        var marker_5c95ee3801914d6f92a7c81f44d5cd3b = L.marker(
+            [52.8219, -1.6270799999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_9f1577edabbe4689a0fa39654393fc2a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5c95ee3801914d6f92a7c81f44d5cd3b.setIcon(icon_9f1577edabbe4689a0fa39654393fc2a);
+            
+    
+            var popup_7018b63a7f0c4e96a6f2d68ae11231c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a3e43dfd1eb2406e9533e8df09bc6300 = $('<div id="html_a3e43dfd1eb2406e9533e8df09bc6300" style="width: 100.0%; height: 100.0%;">Pirelli Stadium         - Burton Albion - 6912</div>')[0];
+                popup_7018b63a7f0c4e96a6f2d68ae11231c8.setContent(html_a3e43dfd1eb2406e9533e8df09bc6300);
+            
+
+            marker_5c95ee3801914d6f92a7c81f44d5cd3b.bindPopup(popup_7018b63a7f0c4e96a6f2d68ae11231c8)
+            ;
+
+            
+        
+    
+        var marker_9b8a4c47c910452b9a0ad2a0190c82c7 = L.marker(
+            [50.4764, -3.5238199999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_1a7b35bbf139418b9197bc6295c399ef = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9b8a4c47c910452b9a0ad2a0190c82c7.setIcon(icon_1a7b35bbf139418b9197bc6295c399ef);
+            
+    
+            var popup_7ff1107e6e0a40a399c7f3ab45ddb8d2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e16c743318a64744beb27889fb3fb9a7 = $('<div id="html_e16c743318a64744beb27889fb3fb9a7" style="width: 100.0%; height: 100.0%;">Plainmoor         - Torquay United - 6104</div>')[0];
+                popup_7ff1107e6e0a40a399c7f3ab45ddb8d2.setContent(html_e16c743318a64744beb27889fb3fb9a7);
+            
+
+            marker_9b8a4c47c910452b9a0ad2a0190c82c7.bindPopup(popup_7ff1107e6e0a40a399c7f3ab45ddb8d2)
+            ;
+
+            
+        
+    
+        var marker_e9beccc6a8e24775bfe37eb22a582413 = L.marker(
+            [53.3738, -3.03269],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_ef8990227fee4acaa63eca05d1414747 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e9beccc6a8e24775bfe37eb22a582413.setIcon(icon_ef8990227fee4acaa63eca05d1414747);
+            
+    
+            var popup_bb1ad8a839c44e37a42e84e8a966ba41 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2988f25818d0422d80511a6ce390e6ab = $('<div id="html_2988f25818d0422d80511a6ce390e6ab" style="width: 100.0%; height: 100.0%;">Prenton Park         - Tranmere Rovers - 16567</div>')[0];
+                popup_bb1ad8a839c44e37a42e84e8a966ba41.setContent(html_2988f25818d0422d80511a6ce390e6ab);
+            
+
+            marker_e9beccc6a8e24775bfe37eb22a582413.bindPopup(popup_bb1ad8a839c44e37a42e84e8a966ba41)
+            ;
+
+            
+        
+    
+        var marker_c1d64b6ec2fc46f79b5df5124cc316e9 = L.marker(
+            [51.3844, 0.5603670000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_4315193fc21b4ecfb7e057f5c5365030 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c1d64b6ec2fc46f79b5df5124cc316e9.setIcon(icon_4315193fc21b4ecfb7e057f5c5365030);
+            
+    
+            var popup_def11a19b5d7497ba57647f1182343ff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3cf0c8a7ac4d4c36ad5f636cd131e99f = $('<div id="html_3cf0c8a7ac4d4c36ad5f636cd131e99f" style="width: 100.0%; height: 100.0%;">Priestfield Stadium         - Gillingham - 11582</div>')[0];
+                popup_def11a19b5d7497ba57647f1182343ff.setContent(html_3cf0c8a7ac4d4c36ad5f636cd131e99f);
+            
+
+            marker_c1d64b6ec2fc46f79b5df5124cc316e9.bindPopup(popup_def11a19b5d7497ba57647f1182343ff)
+            ;
+
+            
+        
+    
+        var marker_b813733ac0d340d1b2de7cff1578f722 = L.marker(
+            [51.2484, -0.754869],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_4a8b9fdedaaf4e829dcdd523c1035596 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b813733ac0d340d1b2de7cff1578f722.setIcon(icon_4a8b9fdedaaf4e829dcdd523c1035596);
+            
+    
+            var popup_f652cb0800934af7905a4a35ae986c69 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6260007ee1ae4c80b2a5c630751f2b01 = $('<div id="html_6260007ee1ae4c80b2a5c630751f2b01" style="width: 100.0%; height: 100.0%;">Recreation Ground         - Aldershot Town - 7100</div>')[0];
+                popup_f652cb0800934af7905a4a35ae986c69.setContent(html_6260007ee1ae4c80b2a5c630751f2b01);
+            
+
+            marker_b813733ac0d340d1b2de7cff1578f722.bindPopup(popup_f652cb0800934af7905a4a35ae986c69)
+            ;
+
+            
+        
+    
+        var marker_9c1d9e75bb7e47eb9904e7070ae2b2e3 = L.marker(
+            [56.1166, -3.77865],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_b9af90c6f4e848f6bedf6c5671ed5f8f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c1d9e75bb7e47eb9904e7070ae2b2e3.setIcon(icon_b9af90c6f4e848f6bedf6c5671ed5f8f);
+            
+    
+            var popup_908b3f41b3424b55bbeaf31c38e031c1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_629b7c210bfe4371a2f524c3e6cb70fc = $('<div id="html_629b7c210bfe4371a2f524c3e6cb70fc" style="width: 100.0%; height: 100.0%;">Recreation Park         - Alloa Athletic - 3412</div>')[0];
+                popup_908b3f41b3424b55bbeaf31c38e031c1.setContent(html_629b7c210bfe4371a2f524c3e6cb70fc);
+            
+
+            marker_9c1d9e75bb7e47eb9904e7070ae2b2e3.bindPopup(popup_908b3f41b3424b55bbeaf31c38e031c1)
+            ;
+
+            
+        
+    
+        var marker_940febf7fa3343aba71957f8b1048607 = L.marker(
+            [51.5889, -2.98902],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_10cd6981703742beb5c5316846ff7381 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_940febf7fa3343aba71957f8b1048607.setIcon(icon_10cd6981703742beb5c5316846ff7381);
+            
+    
+            var popup_c09e9f7d74c742beaade6b1cbdeb7d75 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0d7d2af6133d4398a05491e774e14a88 = $('<div id="html_0d7d2af6133d4398a05491e774e14a88" style="width: 100.0%; height: 100.0%;">Rodney Parade         - Newport County - 7850</div>')[0];
+                popup_c09e9f7d74c742beaade6b1cbdeb7d75.setContent(html_0d7d2af6133d4398a05491e774e14a88);
+            
+
+            marker_940febf7fa3343aba71957f8b1048607.bindPopup(popup_c09e9f7d74c742beaade6b1cbdeb7d75)
+            ;
+
+            
+        
+    
+        var marker_035ef0b6122d4a90bbd921a4038d33e5 = L.marker(
+            [51.5491, 0.701572],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_a9dbd3d2a1a443eaafddf11fb93d45ea = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_035ef0b6122d4a90bbd921a4038d33e5.setIcon(icon_a9dbd3d2a1a443eaafddf11fb93d45ea);
+            
+    
+            var popup_9933092e7508410e84c82c270c6b24e4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed7980aeb80c4b0082cefc34b3e6def7 = $('<div id="html_ed7980aeb80c4b0082cefc34b3e6def7" style="width: 100.0%; height: 100.0%;">Roots Hall         - Southend United - 12392</div>')[0];
+                popup_9933092e7508410e84c82c270c6b24e4.setContent(html_ed7980aeb80c4b0082cefc34b3e6def7);
+            
+
+            marker_035ef0b6122d4a90bbd921a4038d33e5.bindPopup(popup_9933092e7508410e84c82c270c6b24e4)
+            ;
+
+            
+        
+    
+        var marker_7ef7759c31494de1a6b8045aeda2cb73 = L.marker(
+            [55.6046, -4.5084599999999995],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_8161a4840f354010906db019084c0d79 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7ef7759c31494de1a6b8045aeda2cb73.setIcon(icon_8161a4840f354010906db019084c0d79);
+            
+    
+            var popup_4fa5603e9ad84f9a8cfe59766916dac5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c6583c043474fb7b59b842733b3d504 = $('<div id="html_6c6583c043474fb7b59b842733b3d504" style="width: 100.0%; height: 100.0%;">Rugby Park         - Kilmarnock - 18128</div>')[0];
+                popup_4fa5603e9ad84f9a8cfe59766916dac5.setContent(html_6c6583c043474fb7b59b842733b3d504);
+            
+
+            marker_7ef7759c31494de1a6b8045aeda2cb73.bindPopup(popup_4fa5603e9ad84f9a8cfe59766916dac5)
+            ;
+
+            
+        
+    
+        var marker_3280e3e1d17641e5abab5e150a690552 = L.marker(
+            [50.7352, -1.8383900000000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_a0c8a68ab4144cf7838b971e4fca5033 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3280e3e1d17641e5abab5e150a690552.setIcon(icon_a0c8a68ab4144cf7838b971e4fca5033);
+            
+    
+            var popup_bbab4ea543fb4b5990e4e94c88c9cdb3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_11f278c843844ceb812aef5914af41c2 = $('<div id="html_11f278c843844ceb812aef5914af41c2" style="width: 100.0%; height: 100.0%;">Seward Stadium         - Bournemouth - 10700</div>')[0];
+                popup_bbab4ea543fb4b5990e4e94c88c9cdb3.setContent(html_11f278c843844ceb812aef5914af41c2);
+            
+
+            marker_3280e3e1d17641e5abab5e150a690552.bindPopup(popup_bbab4ea543fb4b5990e4e94c88c9cdb3)
+            ;
+
+            
+        
+    
+        var marker_247fc917da6349ec8d4e5aad0d6e6ebb = L.marker(
+            [55.76, -2.01599],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_0b2e5c939d7d429bbea24bd8b2c984fa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_247fc917da6349ec8d4e5aad0d6e6ebb.setIcon(icon_0b2e5c939d7d429bbea24bd8b2c984fa);
+            
+    
+            var popup_26f0797865854715a0ab1d4418c99a80 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b4437d779b564956a7c7bfd5697dce0c = $('<div id="html_b4437d779b564956a7c7bfd5697dce0c" style="width: 100.0%; height: 100.0%;">Shielfield Park         - Berwick Rangers - 4131</div>')[0];
+                popup_26f0797865854715a0ab1d4418c99a80.setContent(html_b4437d779b564956a7c7bfd5697dce0c);
+            
+
+            marker_247fc917da6349ec8d4e5aad0d6e6ebb.bindPopup(popup_26f0797865854715a0ab1d4418c99a80)
+            ;
+
+            
+        
+    
+        var marker_4cfa9a734e4d494e99e1b11f56c7e163 = L.marker(
+            [52.2352, -0.933485],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_016b086cfeab4ce0a0c56f58911ef386 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4cfa9a734e4d494e99e1b11f56c7e163.setIcon(icon_016b086cfeab4ce0a0c56f58911ef386);
+            
+    
+            var popup_1efc099e02b84824ad039c0939ba2319 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_97cbdfe4279c41189dd7b2c26d0379c7 = $('<div id="html_97cbdfe4279c41189dd7b2c26d0379c7" style="width: 100.0%; height: 100.0%;">Sixfields Stadium         - Northampton Town - 7653</div>')[0];
+                popup_1efc099e02b84824ad039c0939ba2319.setContent(html_97cbdfe4279c41189dd7b2c26d0379c7);
+            
+
+            marker_4cfa9a734e4d494e99e1b11f56c7e163.bindPopup(popup_1efc099e02b84824ad039c0939ba2319)
+            ;
+
+            
+        
+    
+        var marker_a29cda5bbb5c43998c3b418113ce4d2a = L.marker(
+            [55.4697, -4.61996],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_13b9455c66284555b474ab97241c5a7c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a29cda5bbb5c43998c3b418113ce4d2a.setIcon(icon_13b9455c66284555b474ab97241c5a7c);
+            
+    
+            var popup_e42a74d4e0fb4d579fd32889a3d20370 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7f9c24702356465aa2dd63ffd99e1e47 = $('<div id="html_7f9c24702356465aa2dd63ffd99e1e47" style="width: 100.0%; height: 100.0%;">Somerset Park         - Ayr United - 10243</div>')[0];
+                popup_e42a74d4e0fb4d579fd32889a3d20370.setContent(html_7f9c24702356465aa2dd63ffd99e1e47);
+            
+
+            marker_a29cda5bbb5c43998c3b418113ce4d2a.bindPopup(popup_e42a74d4e0fb4d579fd32889a3d20370)
+            ;
+
+            
+        
+    
+        var marker_b87ea4847a004a48aabb7bc0977be23a = L.marker(
+            [53.6209, -2.17993],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_4b0b5c35f3564861abdec96d4a314ac7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b87ea4847a004a48aabb7bc0977be23a.setIcon(icon_4b0b5c35f3564861abdec96d4a314ac7);
+            
+    
+            var popup_30670539f03a4d15ac0ec40efa8b5ce3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2136085e9f5746d78d46b066d537405f = $('<div id="html_2136085e9f5746d78d46b066d537405f" style="width: 100.0%; height: 100.0%;">Spotland Stadium         - Rochdale - 10249</div>')[0];
+                popup_30670539f03a4d15ac0ec40efa8b5ce3.setContent(html_2136085e9f5746d78d46b066d537405f);
+            
+
+            marker_b87ea4847a004a48aabb7bc0977be23a.bindPopup(popup_30670539f03a4d15ac0ec40efa8b5ce3)
+            ;
+
+            
+        
+    
+        var marker_2dd1c1add72741a5bcda06cdf1d70dfd = L.marker(
+            [50.7307, -3.52109],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_2c2e0f2e3ae6439ba17a44913be583cd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2dd1c1add72741a5bcda06cdf1d70dfd.setIcon(icon_2c2e0f2e3ae6439ba17a44913be583cd);
+            
+    
+            var popup_0a4d1c46716042f6ace4f853ad05bc14 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_83731eef07c84142887fbbb1a68eea4a = $('<div id="html_83731eef07c84142887fbbb1a68eea4a" style="width: 100.0%; height: 100.0%;">St James Park, Exeter         - Exeter City - 8541</div>')[0];
+                popup_0a4d1c46716042f6ace4f853ad05bc14.setContent(html_83731eef07c84142887fbbb1a68eea4a);
+            
+
+            marker_2dd1c1add72741a5bcda06cdf1d70dfd.bindPopup(popup_0a4d1c46716042f6ace4f853ad05bc14)
+            ;
+
+            
+        
+    
+        var marker_d62da8c5053244bb823cea65daffd4f7 = L.marker(
+            [55.8529, -4.42879],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_692c393e6db84e6eac39c778730c3608 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d62da8c5053244bb823cea65daffd4f7.setIcon(icon_692c393e6db84e6eac39c778730c3608);
+            
+    
+            var popup_4f97532130fc4c378901f84b41f2086f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bae2978ff8ab4763a3cf9586f4fada84 = $('<div id="html_bae2978ff8ab4763a3cf9586f4fada84" style="width: 100.0%; height: 100.0%;">St Mirren Park         - St Mirren - 8023</div>')[0];
+                popup_4f97532130fc4c378901f84b41f2086f.setContent(html_bae2978ff8ab4763a3cf9586f4fada84);
+            
+
+            marker_d62da8c5053244bb823cea65daffd4f7.bindPopup(popup_4f97532130fc4c378901f84b41f2086f)
+            ;
+
+            
+        
+    
+        var marker_6bef3bc03b1344b2a5fac4fa2d920753 = L.marker(
+            [54.9022, -5.012490000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_2a43ee4e58b7469ba489793e0f9fa04a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6bef3bc03b1344b2a5fac4fa2d920753.setIcon(icon_2a43ee4e58b7469ba489793e0f9fa04a);
+            
+    
+            var popup_2e9d54a084e34c2db87b6fe8853a0df1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f84ed3cdfc1b4126ace6767a86b929e8 = $('<div id="html_f84ed3cdfc1b4126ace6767a86b929e8" style="width: 100.0%; height: 100.0%;">Stair Park         - Stranraer - 5600</div>')[0];
+                popup_2e9d54a084e34c2db87b6fe8853a0df1.setContent(html_f84ed3cdfc1b4126ace6767a86b929e8);
+            
+
+            marker_6bef3bc03b1344b2a5fac4fa2d920753.bindPopup(popup_2e9d54a084e34c2db87b6fe8853a0df1)
+            ;
+
+            
+        
+    
+        var marker_7aabfbc8f7d346cb8fc81d0eebf59185 = L.marker(
+            [56.0999, -3.16851],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_2b11b9af0894493b97403f3749ff7036 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7aabfbc8f7d346cb8fc81d0eebf59185.setIcon(icon_2b11b9af0894493b97403f3749ff7036);
+            
+    
+            var popup_3bf7941623664241865ac4faf603ca5b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a73fb49af664424da00333a2c02dc1d7 = $('<div id="html_a73fb49af664424da00333a2c02dc1d7" style="width: 100.0%; height: 100.0%;">Stark&#39;s Park         - Raith Rovers - 10104</div>')[0];
+                popup_3bf7941623664241865ac4faf603ca5b.setContent(html_a73fb49af664424da00333a2c02dc1d7);
+            
+
+            marker_7aabfbc8f7d346cb8fc81d0eebf59185.bindPopup(popup_3bf7941623664241865ac4faf603ca5b)
+            ;
+
+            
+        
+    
+        var marker_1d51e83db6994c9495213d0c4a4cc2ad = L.marker(
+            [56.6523, -2.88492],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_e64a3f813e6d4750bfb1688ff369b013 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1d51e83db6994c9495213d0c4a4cc2ad.setIcon(icon_e64a3f813e6d4750bfb1688ff369b013);
+            
+    
+            var popup_03a58bfafc80492198dbf19ca2ad66bd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0989deeaa4274c2cac8b9e2bc72bba09 = $('<div id="html_0989deeaa4274c2cac8b9e2bc72bba09" style="width: 100.0%; height: 100.0%;">Station Park         - Forfar Athletic - 5177</div>')[0];
+                popup_03a58bfafc80492198dbf19ca2ad66bd.setContent(html_0989deeaa4274c2cac8b9e2bc72bba09);
+            
+
+            marker_1d51e83db6994c9495213d0c4a4cc2ad.bindPopup(popup_03a58bfafc80492198dbf19ca2ad66bd)
+            ;
+
+            
+        
+    
+        var marker_2de8557d16ae44ffb180b5db44aabf20 = L.marker(
+            [56.4748, -2.96902],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_f325b997c6534ecd92cb01b113ead8c5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2de8557d16ae44ffb180b5db44aabf20.setIcon(icon_f325b997c6534ecd92cb01b113ead8c5);
+            
+    
+            var popup_9923a6c38e20401f8a69d19a146b271d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e7a35f26488840fb80d2ea74d3939636 = $('<div id="html_e7a35f26488840fb80d2ea74d3939636" style="width: 100.0%; height: 100.0%;">Tannadice Park         - Dundee United - 14209</div>')[0];
+                popup_9923a6c38e20401f8a69d19a146b271d.setContent(html_e7a35f26488840fb80d2ea74d3939636);
+            
+
+            marker_2de8557d16ae44ffb180b5db44aabf20.bindPopup(popup_9923a6c38e20401f8a69d19a146b271d)
+            ;
+
+            
+        
+    
+        var marker_e1f9dfb3f5a84177baef98076be5a022 = L.marker(
+            [57.4951, -4.21751],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_6b5431d767fa48a1bb4b62d25014f889 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e1f9dfb3f5a84177baef98076be5a022.setIcon(icon_6b5431d767fa48a1bb4b62d25014f889);
+            
+    
+            var popup_d7762053c0264afa9439823823014689 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0fee49dfb2c14a14aed0287fe752fbe7 = $('<div id="html_0fee49dfb2c14a14aed0287fe752fbe7" style="width: 100.0%; height: 100.0%;">The Caledonian Stadium         - Inverness Caledonian Thistle - 7918</div>')[0];
+                popup_d7762053c0264afa9439823823014689.setContent(html_0fee49dfb2c14a14aed0287fe752fbe7);
+            
+
+            marker_e1f9dfb3f5a84177baef98076be5a022.bindPopup(popup_d7762053c0264afa9439823823014689)
+            ;
+
+            
+        
+    
+        var marker_e932edbdf9ef4d0b931c0ac4763f417b = L.marker(
+            [51.5645, -1.7710700000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_492ba34acad5473f919d00c026210f5d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e932edbdf9ef4d0b931c0ac4763f417b.setIcon(icon_492ba34acad5473f919d00c026210f5d);
+            
+    
+            var popup_84abdd40f09d4c2f9b41dd6936f14b31 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d1f2d81ad69f486dbf687ee9234ab154 = $('<div id="html_d1f2d81ad69f486dbf687ee9234ab154" style="width: 100.0%; height: 100.0%;">The County Ground         - Swindon Town - 15728</div>')[0];
+                popup_84abdd40f09d4c2f9b41dd6936f14b31.setContent(html_d1f2d81ad69f486dbf687ee9234ab154);
+            
+
+            marker_e932edbdf9ef4d0b931c0ac4763f417b.bindPopup(popup_84abdd40f09d4c2f9b41dd6936f14b31)
+            ;
+
+            
+        
+    
+        var marker_f4e4e6452a9c41c990d67899c45325f9 = L.marker(
+            [51.6028, -0.291788],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_9bcaa127ecdb4d14960193dd09b3dd70 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f4e4e6452a9c41c990d67899c45325f9.setIcon(icon_9bcaa127ecdb4d14960193dd09b3dd70);
+            
+    
+            var popup_72ef5f338b904ba1b5365f9374b969c2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4573952a64bd41958dcda57db49b367d = $('<div id="html_4573952a64bd41958dcda57db49b367d" style="width: 100.0%; height: 100.0%;">The Hive Stadium         - Barnet - 5176</div>')[0];
+                popup_72ef5f338b904ba1b5365f9374b969c2.setContent(html_4573952a64bd41958dcda57db49b367d);
+            
+
+            marker_f4e4e6452a9c41c990d67899c45325f9.bindPopup(popup_72ef5f338b904ba1b5365f9374b969c2)
+            ;
+
+            
+        
+    
+        var marker_25eb80abb51d4f01a3743bb7bac9e989 = L.marker(
+            [51.8898, -0.193664],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_28a895d883f04fa78411bd789b8d3e1b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25eb80abb51d4f01a3743bb7bac9e989.setIcon(icon_28a895d883f04fa78411bd789b8d3e1b);
+            
+    
+            var popup_14122263fcaf47e69889b9d96e020725 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f49234b8f2a4b43b699fc9883d5076e = $('<div id="html_1f49234b8f2a4b43b699fc9883d5076e" style="width: 100.0%; height: 100.0%;">The Lamex Stadium         - Stevenage Borough - 6722</div>')[0];
+                popup_14122263fcaf47e69889b9d96e020725.setContent(html_1f49234b8f2a4b43b699fc9883d5076e);
+            
+
+            marker_25eb80abb51d4f01a3743bb7bac9e989.bindPopup(popup_14122263fcaf47e69889b9d96e020725)
+            ;
+
+            
+        
+    
+        var marker_17cd40357d9b434bb3b9e7e33a8f837a = L.marker(
+            [55.9388, -3.2325],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_4e9c3db211a643bf8229e1e45eaca6b7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_17cd40357d9b434bb3b9e7e33a8f837a.setIcon(icon_4e9c3db211a643bf8229e1e45eaca6b7);
+            
+    
+            var popup_46a84905307d42f595509979f7f12dff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b1784fb6b3448ddb56689193c10beb3 = $('<div id="html_6b1784fb6b3448ddb56689193c10beb3" style="width: 100.0%; height: 100.0%;">Tynecastle         - Heart of Midlothian - 17420</div>')[0];
+                popup_46a84905307d42f595509979f7f12dff.setContent(html_6b1784fb6b3448ddb56689193c10beb3);
+            
+
+            marker_17cd40357d9b434bb3b9e7e33a8f837a.bindPopup(popup_46a84905307d42f595509979f7f12dff)
+            ;
+
+            
+        
+    
+        var marker_757f3c8cb1554b7da2b6c805f5902850 = L.marker(
+            [53.05, -2.1926],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_8ceb0c36e087422ea48a80a0d4d2bbdf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_757f3c8cb1554b7da2b6c805f5902850.setIcon(icon_8ceb0c36e087422ea48a80a0d4d2bbdf);
+            
+    
+            var popup_806973efd0dc4dbdb299003c79124d66 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_000879c386304e488512d64e1e495eeb = $('<div id="html_000879c386304e488512d64e1e495eeb" style="width: 100.0%; height: 100.0%;">Vale Park         - Port Vale - 19052</div>')[0];
+                popup_806973efd0dc4dbdb299003c79124d66.setContent(html_000879c386304e488512d64e1e495eeb);
+            
+
+            marker_757f3c8cb1554b7da2b6c805f5902850.bindPopup(popup_806973efd0dc4dbdb299003c79124d66)
+            ;
+
+            
+        
+    
+        var marker_b0da8495377146d599c1dff2f60b35d4 = L.marker(
+            [51.6498, -0.401569],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_ca833c44ad43450abce7152e2ce212be = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b0da8495377146d599c1dff2f60b35d4.setIcon(icon_ca833c44ad43450abce7152e2ce212be);
+            
+    
+            var popup_4f0604b7215844f9a8353ee86b0e09bd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2c2d8de92e3f42c4a99cfa6bcfd545f9 = $('<div id="html_2c2d8de92e3f42c4a99cfa6bcfd545f9" style="width: 100.0%; height: 100.0%;">Vicarage Road         - Watford - 17477</div>')[0];
+                popup_4f0604b7215844f9a8353ee86b0e09bd.setContent(html_2c2d8de92e3f42c4a99cfa6bcfd545f9);
+            
+
+            marker_b0da8495377146d599c1dff2f60b35d4.bindPopup(popup_4f0604b7215844f9a8353ee86b0e09bd)
+            ;
+
+            
+        
+    
+        var marker_96f87ddfe6234f40999bc0125ba7d006 = L.marker(
+            [54.6891, -1.21274],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_3d4ac047951645d78c264b02c487a1e6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_96f87ddfe6234f40999bc0125ba7d006.setIcon(icon_3d4ac047951645d78c264b02c487a1e6);
+            
+    
+            var popup_04787703589d409394a59c3f540199f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_475b783c399d42a4b9506ffd801d1043 = $('<div id="html_475b783c399d42a4b9506ffd801d1043" style="width: 100.0%; height: 100.0%;">Victoria Park         - Hartlepool United - 7856</div>')[0];
+                popup_04787703589d409394a59c3f540199f9.setContent(html_475b783c399d42a4b9506ffd801d1043);
+            
+
+            marker_96f87ddfe6234f40999bc0125ba7d006.bindPopup(popup_04787703589d409394a59c3f540199f9)
+            ;
+
+            
+        
+    
+        var marker_dfd39e6bb37c4b4b94d7fad22f1483be = L.marker(
+            [57.5959, -4.41898],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_81230817a1a44c7887927d9da934023f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dfd39e6bb37c4b4b94d7fad22f1483be.setIcon(icon_81230817a1a44c7887927d9da934023f);
+            
+    
+            var popup_5ad0ae532b6143f4bd369e49255bb7b3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_967b9e97ba2f41ae895d84ded2f58b5d = $('<div id="html_967b9e97ba2f41ae895d84ded2f58b5d" style="width: 100.0%; height: 100.0%;">Victoria Park, Dingwall         - Ross County - 6310</div>')[0];
+                popup_5ad0ae532b6143f4bd369e49255bb7b3.setContent(html_967b9e97ba2f41ae895d84ded2f58b5d);
+            
+
+            marker_dfd39e6bb37c4b4b94d7fad22f1483be.bindPopup(popup_5ad0ae532b6143f4bd369e49255bb7b3)
+            ;
+
+            
+        
+    
+        var marker_50f3b76273bd4b0794ba5421964c2904 = L.marker(
+            [51.5478, 0.15973900000000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_72e80cf77e0545a2816be6927eaeb19c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50f3b76273bd4b0794ba5421964c2904.setIcon(icon_72e80cf77e0545a2816be6927eaeb19c);
+            
+    
+            var popup_34967e49919f40aa97bc4fe22a14e3d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_29d66fb2d0c045189847c7cc23efb4df = $('<div id="html_29d66fb2d0c045189847c7cc23efb4df" style="width: 100.0%; height: 100.0%;">Victoria Road         - Dagenham and Redbridge - 6078</div>')[0];
+                popup_34967e49919f40aa97bc4fe22a14e3d6.setContent(html_29d66fb2d0c045189847c7cc23efb4df);
+            
+
+            marker_50f3b76273bd4b0794ba5421964c2904.bindPopup(popup_34967e49919f40aa97bc4fe22a14e3d6)
+            ;
+
+            
+        
+    
+        var marker_8318ffc039684ab1afd9b93db65d10f7 = L.marker(
+            [51.9234, 0.897861],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_a3d261f289fc40749d5ffc177edf28f1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8318ffc039684ab1afd9b93db65d10f7.setIcon(icon_a3d261f289fc40749d5ffc177edf28f1);
+            
+    
+            var popup_cb17d23f40d04410b31be1caf7fa7dd7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8654c802c9ee43349f7e7e697c9dd850 = $('<div id="html_8654c802c9ee43349f7e7e697c9dd850" style="width: 100.0%; height: 100.0%;">Weston Homes Community Stadium         - Colchester United - 10084</div>')[0];
+                popup_cb17d23f40d04410b31be1caf7fa7dd7.setContent(html_8654c802c9ee43349f7e7e697c9dd850);
+            
+
+            marker_8318ffc039684ab1afd9b93db65d10f7.bindPopup(popup_cb17d23f40d04410b31be1caf7fa7dd7)
+            ;
+
+            
+        
+    
+        var marker_ac935e0b74bc4be2983a1224bfd93996 = L.marker(
+            [51.9062, -2.0602099999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_42d43328d10a4e75be46c0cd2b939248);
+        
+    
+
+                var icon_3476024828b54f0ea0610a1f9ff6daf6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ac935e0b74bc4be2983a1224bfd93996.setIcon(icon_3476024828b54f0ea0610a1f9ff6daf6);
+            
+    
+            var popup_1dea673a9ede4b59bfff829cdbe5fc2b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_525f738dee914d16a5016e10317570a3 = $('<div id="html_525f738dee914d16a5016e10317570a3" style="width: 100.0%; height: 100.0%;">Whaddon Road         - Cheltenham Town - 7066</div>')[0];
+                popup_1dea673a9ede4b59bfff829cdbe5fc2b.setContent(html_525f738dee914d16a5016e10317570a3);
+            
+
+            marker_ac935e0b74bc4be2983a1224bfd93996.bindPopup(popup_1dea673a9ede4b59bfff829cdbe5fc2b)
+            ;
+
+            
+        
+    
+            var feature_group_1269d597dc6042ad87ec0a08a3a075b3 = L.featureGroup(
+                ).addTo(map_fb0e70e8021b43929ff42fe1bd088971);
+        
+    
+        var marker_8e45221b059049a299e40608a872be7c = L.marker(
+            [50.8609, -0.08014],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_aeed0856730c4ef0b6fa3b1c47c61788 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8e45221b059049a299e40608a872be7c.setIcon(icon_aeed0856730c4ef0b6fa3b1c47c61788);
+            
+    
+            var popup_d2bb6a6fea39452d8fb21d3d99e03668 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f7d94c7cfdc54b899b0f763c98ef415a = $('<div id="html_f7d94c7cfdc54b899b0f763c98ef415a" style="width: 100.0%; height: 100.0%;">Amex Stadium         - Brighton and Hove Albion - 22374</div>')[0];
+                popup_d2bb6a6fea39452d8fb21d3d99e03668.setContent(html_f7d94c7cfdc54b899b0f763c98ef415a);
+            
+
+            marker_8e45221b059049a299e40608a872be7c.bindPopup(popup_d2bb6a6fea39452d8fb21d3d99e03668)
+            ;
+
+            
+        
+    
+        var marker_82f76f6c44514d1aaff99788d0e8a446 = L.marker(
+            [53.4308, -2.96096],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_1f6782bfad844be59df5e768579b6ea9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82f76f6c44514d1aaff99788d0e8a446.setIcon(icon_1f6782bfad844be59df5e768579b6ea9);
+            
+    
+            var popup_77aedaa7047b4ad2930693a0dbe7e390 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7ca5260e544b4f26800d1cf78510a94a = $('<div id="html_7ca5260e544b4f26800d1cf78510a94a" style="width: 100.0%; height: 100.0%;">Anfield         - Liverpool - 45522</div>')[0];
+                popup_77aedaa7047b4ad2930693a0dbe7e390.setContent(html_7ca5260e544b4f26800d1cf78510a94a);
+            
+
+            marker_82f76f6c44514d1aaff99788d0e8a446.bindPopup(popup_77aedaa7047b4ad2930693a0dbe7e390)
+            ;
+
+            
+        
+    
+        var marker_7609374343404da88226b9ffa9a63dc9 = L.marker(
+            [51.44, -2.6202099999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_faa6edf86fcf41e4a882c7df356124d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7609374343404da88226b9ffa9a63dc9.setIcon(icon_faa6edf86fcf41e4a882c7df356124d3);
+            
+    
+            var popup_2e8f4ca0f39e487094081cd0fcc0be02 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7bcaf187ba1446138d5a25ae0f702440 = $('<div id="html_7bcaf187ba1446138d5a25ae0f702440" style="width: 100.0%; height: 100.0%;">Ashton Gate         - Bristol City - 21497</div>')[0];
+                popup_2e8f4ca0f39e487094081cd0fcc0be02.setContent(html_7bcaf187ba1446138d5a25ae0f702440);
+            
+
+            marker_7609374343404da88226b9ffa9a63dc9.bindPopup(popup_2e8f4ca0f39e487094081cd0fcc0be02)
+            ;
+
+            
+        
+    
+        var marker_36121697656648e98912127f76f247ee = L.marker(
+            [53.3703, -1.4708299999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_56b4041f69384c0787d06e912c6c2438 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_36121697656648e98912127f76f247ee.setIcon(icon_56b4041f69384c0787d06e912c6c2438);
+            
+    
+            var popup_cfb8eaa2007442dcaa53d3d512b209dc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8627b8a6e3c54f9f85ac297bd5958e9c = $('<div id="html_8627b8a6e3c54f9f85ac297bd5958e9c" style="width: 100.0%; height: 100.0%;">Bramall Lane         - Sheffield United - 32702</div>')[0];
+                popup_cfb8eaa2007442dcaa53d3d512b209dc.setContent(html_8627b8a6e3c54f9f85ac297bd5958e9c);
+            
+
+            marker_36121697656648e98912127f76f247ee.bindPopup(popup_cfb8eaa2007442dcaa53d3d512b209dc)
+            ;
+
+            
+        
+    
+        var marker_2323fd1ee72c45cd8115fcaafd581c90 = L.marker(
+            [52.9884, -2.17542],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_48b1d9ab4a3a464dacfef0cb3a18ef75 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2323fd1ee72c45cd8115fcaafd581c90.setIcon(icon_48b1d9ab4a3a464dacfef0cb3a18ef75);
+            
+    
+            var popup_59773ac9763e4afeb912f5557f02eba4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_83d8c7139b124f12896de7e57e25734c = $('<div id="html_83d8c7139b124f12896de7e57e25734c" style="width: 100.0%; height: 100.0%;">Britannia Stadium         - Stoke City - 27902</div>')[0];
+                popup_59773ac9763e4afeb912f5557f02eba4.setContent(html_83d8c7139b124f12896de7e57e25734c);
+            
+
+            marker_2323fd1ee72c45cd8115fcaafd581c90.bindPopup(popup_59773ac9763e4afeb912f5557f02eba4)
+            ;
+
+            
+        
+    
+        var marker_7720c2dfd8f9410eb79d16a79b11255b = L.marker(
+            [51.4729, -3.20413],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_96ced9bcc2bc46aaa9fc0ca6e877746a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7720c2dfd8f9410eb79d16a79b11255b.setIcon(icon_96ced9bcc2bc46aaa9fc0ca6e877746a);
+            
+    
+            var popup_820a6a4fc2994586968a27c4f5b572df = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f9ae49418679406586212e0f2daf66f8 = $('<div id="html_f9ae49418679406586212e0f2daf66f8" style="width: 100.0%; height: 100.0%;">Cardiff City Stadium         - Cardiff City - 26828</div>')[0];
+                popup_820a6a4fc2994586968a27c4f5b572df.setContent(html_f9ae49418679406586212e0f2daf66f8);
+            
+
+            marker_7720c2dfd8f9410eb79d16a79b11255b.bindPopup(popup_820a6a4fc2994586968a27c4f5b572df)
+            ;
+
+            
+        
+    
+        var marker_1d694bb23fce4fa0a13f2e013d81c0fc = L.marker(
+            [52.6221, 1.30912],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_f7af2075310840db96353e03f5bb0be6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1d694bb23fce4fa0a13f2e013d81c0fc.setIcon(icon_f7af2075310840db96353e03f5bb0be6);
+            
+    
+            var popup_151c37461ced4413bc81c0facb8117c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ef739f4a05e04483a780ba27fb716a3a = $('<div id="html_ef739f4a05e04483a780ba27fb716a3a" style="width: 100.0%; height: 100.0%;">Carrow Road         - Norwich City - 27033</div>')[0];
+                popup_151c37461ced4413bc81c0facb8117c8.setContent(html_ef739f4a05e04483a780ba27fb716a3a);
+            
+
+            marker_1d694bb23fce4fa0a13f2e013d81c0fc.bindPopup(popup_151c37461ced4413bc81c0facb8117c8)
+            ;
+
+            
+        
+    
+        var marker_514e03de18344cd3b6a17824e6f60c1d = L.marker(
+            [51.4749, -0.221619],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_a932c7bf7a644105bec67814888b3eba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_514e03de18344cd3b6a17824e6f60c1d.setIcon(icon_a932c7bf7a644105bec67814888b3eba);
+            
+    
+            var popup_bdf996807fd94920add2f6d1182688a4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a9a27de58254f05bee4f52786dfa3ac = $('<div id="html_9a9a27de58254f05bee4f52786dfa3ac" style="width: 100.0%; height: 100.0%;">Craven Cottage         - Fulham - 25700</div>')[0];
+                popup_bdf996807fd94920add2f6d1182688a4.setContent(html_9a9a27de58254f05bee4f52786dfa3ac);
+            
+
+            marker_514e03de18344cd3b6a17824e6f60c1d.bindPopup(popup_bdf996807fd94920add2f6d1182688a4)
+            ;
+
+            
+        
+    
+        var marker_0ed1730b6b744878afcaae7330204c84 = L.marker(
+            [53.772, -2.68832],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_2b925b10383a49ec9896d317435dad2a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0ed1730b6b744878afcaae7330204c84.setIcon(icon_2b925b10383a49ec9896d317435dad2a);
+            
+    
+            var popup_6022da41e0474f4cb455f2ab63d1fdf8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cea882389e314c54b3e7161e20669225 = $('<div id="html_cea882389e314c54b3e7161e20669225" style="width: 100.0%; height: 100.0%;">Deepdale         - Preston North End - 24500</div>')[0];
+                popup_6022da41e0474f4cb455f2ab63d1fdf8.setContent(html_cea882389e314c54b3e7161e20669225);
+            
+
+            marker_0ed1730b6b744878afcaae7330204c84.bindPopup(popup_6022da41e0474f4cb455f2ab63d1fdf8)
+            ;
+
+            
+        
+    
+        var marker_6dc1f30c1cb6436f8b93e765404112c2 = L.marker(
+            [53.5477, -2.65415],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_1cdee4a3aaec4625889ebb3c3efc2421 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6dc1f30c1cb6436f8b93e765404112c2.setIcon(icon_1cdee4a3aaec4625889ebb3c3efc2421);
+            
+    
+            var popup_063206e73ada409fb7cccd710ba418ef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e9868c992814367aa57cdcf457c0a74 = $('<div id="html_1e9868c992814367aa57cdcf457c0a74" style="width: 100.0%; height: 100.0%;">DW Stadium         - Wigan Athletic - 25138</div>')[0];
+                popup_063206e73ada409fb7cccd710ba418ef.setContent(html_1e9868c992814367aa57cdcf457c0a74);
+            
+
+            marker_6dc1f30c1cb6436f8b93e765404112c2.bindPopup(popup_063206e73ada409fb7cccd710ba418ef)
+            ;
+
+            
+        
+    
+        var marker_dadb45a28ce84612aa917a58f40132ba = L.marker(
+            [55.9616, -3.1652099999999996],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_99cc69c284f44c51afc8cf32ffa61769 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dadb45a28ce84612aa917a58f40132ba.setIcon(icon_99cc69c284f44c51afc8cf32ffa61769);
+            
+    
+            var popup_f0b260c493cd4346aaae65e06e2b68ca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4de76f5a49d044fbb0d2390bf2d6c049 = $('<div id="html_4de76f5a49d044fbb0d2390bf2d6c049" style="width: 100.0%; height: 100.0%;">Easter Road         - Hibernian - 20421</div>')[0];
+                popup_f0b260c493cd4346aaae65e06e2b68ca.setContent(html_4de76f5a49d044fbb0d2390bf2d6c049);
+            
+
+            marker_dadb45a28ce84612aa917a58f40132ba.bindPopup(popup_f0b260c493cd4346aaae65e06e2b68ca)
+            ;
+
+            
+        
+    
+        var marker_32c5504413fc4ab8924b8543aabbe4c6 = L.marker(
+            [53.7775, -1.57212],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_13325e9a49d1432195068f133e98f358 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32c5504413fc4ab8924b8543aabbe4c6.setIcon(icon_13325e9a49d1432195068f133e98f358);
+            
+    
+            var popup_fd6ca8dd53b948469363a74e9e1b4dcf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_807c8ee69a9d4aee9ce59cab0ef80301 = $('<div id="html_807c8ee69a9d4aee9ce59cab0ef80301" style="width: 100.0%; height: 100.0%;">Elland Road         - Leeds United - 37697</div>')[0];
+                popup_fd6ca8dd53b948469363a74e9e1b4dcf.setContent(html_807c8ee69a9d4aee9ce59cab0ef80301);
+            
+
+            marker_32c5504413fc4ab8924b8543aabbe4c6.bindPopup(popup_fd6ca8dd53b948469363a74e9e1b4dcf)
+            ;
+
+            
+        
+    
+        var marker_8a157301a1064d049468a178b0637c35 = L.marker(
+            [53.483000000000004, -2.20024],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_14090a84fbba45a0aba68ed621ad55dc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8a157301a1064d049468a178b0637c35.setIcon(icon_14090a84fbba45a0aba68ed621ad55dc);
+            
+    
+            var popup_ae467f45e6424c6d9a24fb4f3d2d2037 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e771de340de547ea8ae5cd86e721e280 = $('<div id="html_e771de340de547ea8ae5cd86e721e280" style="width: 100.0%; height: 100.0%;">Etihad Stadium         - Manchester City - 47805</div>')[0];
+                popup_ae467f45e6424c6d9a24fb4f3d2d2037.setContent(html_e771de340de547ea8ae5cd86e721e280);
+            
+
+            marker_8a157301a1064d049468a178b0637c35.bindPopup(popup_ae467f45e6424c6d9a24fb4f3d2d2037)
+            ;
+
+            
+        
+    
+        var marker_3bf3412a58c34a92aa56afd3ca8b5acd = L.marker(
+            [53.7286, -2.48937],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_3da521a163714ac0b91740fdb57cfb88 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3bf3412a58c34a92aa56afd3ca8b5acd.setIcon(icon_3da521a163714ac0b91740fdb57cfb88);
+            
+    
+            var popup_5be8009d24d6469aa54e4239a96b9532 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd38db9b353b4cb6bc564b649446d485 = $('<div id="html_cd38db9b353b4cb6bc564b649446d485" style="width: 100.0%; height: 100.0%;">Ewood Park         - Blackburn Rovers - 31154</div>')[0];
+                popup_5be8009d24d6469aa54e4239a96b9532.setContent(html_cd38db9b353b4cb6bc564b649446d485);
+            
+
+            marker_3bf3412a58c34a92aa56afd3ca8b5acd.bindPopup(popup_5be8009d24d6469aa54e4239a96b9532)
+            ;
+
+            
+        
+    
+        var marker_e76cae26b19e41ba8db80db66249bc39 = L.marker(
+            [50.7964, -1.06389],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_643b55a0bef74191a7de2d7dd1006b5d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e76cae26b19e41ba8db80db66249bc39.setIcon(icon_643b55a0bef74191a7de2d7dd1006b5d);
+            
+    
+            var popup_66637882213e4797a5f231c699c53394 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e6777da54f42497888dc2e04457553da = $('<div id="html_e6777da54f42497888dc2e04457553da" style="width: 100.0%; height: 100.0%;">Fratton Park         - Portsmouth - 21100</div>')[0];
+                popup_66637882213e4797a5f231c699c53394.setContent(html_e6777da54f42497888dc2e04457553da);
+            
+
+            marker_e76cae26b19e41ba8db80db66249bc39.bindPopup(popup_66637882213e4797a5f231c699c53394)
+            ;
+
+            
+        
+    
+        var marker_e89aa76b1fa44876ad934b065ad54b68 = L.marker(
+            [53.4387, -2.96619],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_b0070fd50db04e5eb5646e2d4b4cb659 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e89aa76b1fa44876ad934b065ad54b68.setIcon(icon_b0070fd50db04e5eb5646e2d4b4cb659);
+            
+    
+            var popup_28a476d7527d4509a3db7e25784a5482 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d4ba2a472655472ba8e3e996041fe604 = $('<div id="html_d4ba2a472655472ba8e3e996041fe604" style="width: 100.0%; height: 100.0%;">Goodison Park         - Everton - 40157</div>')[0];
+                popup_28a476d7527d4509a3db7e25784a5482.setContent(html_d4ba2a472655472ba8e3e996041fe604);
+            
+
+            marker_e89aa76b1fa44876ad934b065ad54b68.bindPopup(popup_28a476d7527d4509a3db7e25784a5482)
+            ;
+
+            
+        
+    
+        var marker_b55da89e1ed54c938ec6d63a2f46aee8 = L.marker(
+            [53.4115, -1.50075],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_2e1a9d8b0aa2490a918dc73f6ab40bca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b55da89e1ed54c938ec6d63a2f46aee8.setIcon(icon_2e1a9d8b0aa2490a918dc73f6ab40bca);
+            
+    
+            var popup_a8fb71d7855c4a0d929a266c9120117e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e86841817ffd4f38a4f7e777c5957490 = $('<div id="html_e86841817ffd4f38a4f7e777c5957490" style="width: 100.0%; height: 100.0%;">Hillsborough         - Sheffield Wednesday - 39812</div>')[0];
+                popup_a8fb71d7855c4a0d929a266c9120117e.setContent(html_e86841817ffd4f38a4f7e777c5957490);
+            
+
+            marker_b55da89e1ed54c938ec6d63a2f46aee8.bindPopup(popup_a8fb71d7855c4a0d929a266c9120117e)
+            ;
+
+            
+        
+    
+        var marker_0959f0bf335148f38c64c79c702dbcdd = L.marker(
+            [53.7465, -0.36800900000000003],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_783e720a49fb4b79a28fd73b2e6bfd27 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0959f0bf335148f38c64c79c702dbcdd.setIcon(icon_783e720a49fb4b79a28fd73b2e6bfd27);
+            
+    
+            var popup_1fe15088bcc94ae1881535c6a437f039 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_91b062e25724464ebbfa9ff4726b42d8 = $('<div id="html_91b062e25724464ebbfa9ff4726b42d8" style="width: 100.0%; height: 100.0%;">KC Stadium         - Hull City - 25586</div>')[0];
+                popup_1fe15088bcc94ae1881535c6a437f039.setContent(html_91b062e25724464ebbfa9ff4726b42d8);
+            
+
+            marker_0959f0bf335148f38c64c79c702dbcdd.bindPopup(popup_1fe15088bcc94ae1881535c6a437f039)
+            ;
+
+            
+        
+    
+        var marker_959db2fa1b294b47b30e7af2ee31f7d8 = L.marker(
+            [52.6203, -1.1421700000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_2a820a42b13246799f9c0e3e263091d2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_959db2fa1b294b47b30e7af2ee31f7d8.setIcon(icon_2a820a42b13246799f9c0e3e263091d2);
+            
+    
+            var popup_ef3148c1f4e243a88444453ed15ef27f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_96f4fc3e299b48f28f4f3fabae55fd8b = $('<div id="html_96f4fc3e299b48f28f4f3fabae55fd8b" style="width: 100.0%; height: 100.0%;">King Power Stadium         - Leicester City - 32262</div>')[0];
+                popup_ef3148c1f4e243a88444453ed15ef27f.setContent(html_96f4fc3e299b48f28f4f3fabae55fd8b);
+            
+
+            marker_959db2fa1b294b47b30e7af2ee31f7d8.bindPopup(popup_ef3148c1f4e243a88444453ed15ef27f)
+            ;
+
+            
+        
+    
+        var marker_c95e79a571e74978ab4c91929b862386 = L.marker(
+            [51.6428, -3.9347300000000005],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_d3a62aacac5e43d98acf89f762aa0ba1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c95e79a571e74978ab4c91929b862386.setIcon(icon_d3a62aacac5e43d98acf89f762aa0ba1);
+            
+    
+            var popup_0c92773297a445b7a7deaf10f35fa518 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0dc277cac4ed4be9a463b595f7d3153b = $('<div id="html_0dc277cac4ed4be9a463b595f7d3153b" style="width: 100.0%; height: 100.0%;">Liberty Stadium         - Swansea City - 20532</div>')[0];
+                popup_0c92773297a445b7a7deaf10f35fa518.setContent(html_0dc277cac4ed4be9a463b595f7d3153b);
+            
+
+            marker_c95e79a571e74978ab4c91929b862386.bindPopup(popup_0c92773297a445b7a7deaf10f35fa518)
+            ;
+
+            
+        
+    
+        var marker_a268820321904c88b65b0d78cd7c0ab5 = L.marker(
+            [53.5805, -2.53571],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_38fcda43b824420790c8a893744e4ae3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a268820321904c88b65b0d78cd7c0ab5.setIcon(icon_38fcda43b824420790c8a893744e4ae3);
+            
+    
+            var popup_f8e82a9b6cc04661a126bbe311c1d206 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_69ad18ecc3db43309c400d30fec9f562 = $('<div id="html_69ad18ecc3db43309c400d30fec9f562" style="width: 100.0%; height: 100.0%;">Macron Stadium         - Bolton Wanderers - 28723</div>')[0];
+                popup_f8e82a9b6cc04661a126bbe311c1d206.setContent(html_69ad18ecc3db43309c400d30fec9f562);
+            
+
+            marker_a268820321904c88b65b0d78cd7c0ab5.bindPopup(popup_f8e82a9b6cc04661a126bbe311c1d206)
+            ;
+
+            
+        
+    
+        var marker_41983c408a3142c3bdb5ccee335ef7bc = L.marker(
+            [51.4222, -0.982777],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_7b70e95bada044e49253b098e58a14c1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41983c408a3142c3bdb5ccee335ef7bc.setIcon(icon_7b70e95bada044e49253b098e58a14c1);
+            
+    
+            var popup_4924e3e4660542518c3bd8eead04a74c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_94c9d577d0744fc6b17af1ae13dae45d = $('<div id="html_94c9d577d0744fc6b17af1ae13dae45d" style="width: 100.0%; height: 100.0%;">Madjeski Stadium         - Reading - 24161</div>')[0];
+                popup_4924e3e4660542518c3bd8eead04a74c.setContent(html_94c9d577d0744fc6b17af1ae13dae45d);
+            
+
+            marker_41983c408a3142c3bdb5ccee335ef7bc.bindPopup(popup_4924e3e4660542518c3bd8eead04a74c)
+            ;
+
+            
+        
+    
+        var marker_e17b16aca1d64ef8bb43c77e764a030a = L.marker(
+            [52.9425, -1.13703],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_7a6421a3bd5848339246f6aeafea3fd6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e17b16aca1d64ef8bb43c77e764a030a.setIcon(icon_7a6421a3bd5848339246f6aeafea3fd6);
+            
+    
+            var popup_a8027e97e80a4977bfbc0df0e533c103 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8f87d4f6b9a84e15a3d069edb3b14657 = $('<div id="html_8f87d4f6b9a84e15a3d069edb3b14657" style="width: 100.0%; height: 100.0%;">Meadow Lane         - Notts County - 20229</div>')[0];
+                popup_a8027e97e80a4977bfbc0df0e533c103.setContent(html_8f87d4f6b9a84e15a3d069edb3b14657);
+            
+
+            marker_e17b16aca1d64ef8bb43c77e764a030a.bindPopup(popup_a8027e97e80a4977bfbc0df0e533c103)
+            ;
+
+            
+        
+    
+        var marker_73ed5d59e13f4c5aa08e23205509a679 = L.marker(
+            [52.5904, -2.13061],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_38bde5fd14534548ac6df8cf9737de71 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_73ed5d59e13f4c5aa08e23205509a679.setIcon(icon_38bde5fd14534548ac6df8cf9737de71);
+            
+    
+            var popup_8aae42056e6c4b56a9757c5807dd344b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5f7ea3c9cfc34c21839ffb9aeacad37e = $('<div id="html_5f7ea3c9cfc34c21839ffb9aeacad37e" style="width: 100.0%; height: 100.0%;">Molineux         - Wolverhampton Wanderers - 27828</div>')[0];
+                popup_8aae42056e6c4b56a9757c5807dd344b.setContent(html_5f7ea3c9cfc34c21839ffb9aeacad37e);
+            
+
+            marker_73ed5d59e13f4c5aa08e23205509a679.bindPopup(popup_8aae42056e6c4b56a9757c5807dd344b)
+            ;
+
+            
+        
+    
+        var marker_11a0e55a443948c88b097e32a2afbe29 = L.marker(
+            [53.5524, -1.46756],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_650a9b64de63417889c42b404ff8aeaa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11a0e55a443948c88b097e32a2afbe29.setIcon(icon_650a9b64de63417889c42b404ff8aeaa);
+            
+    
+            var popup_68b5616daab040ab82306656d69678fa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4f117a1aa6784ad48b85d4dce362ebda = $('<div id="html_4f117a1aa6784ad48b85d4dce362ebda" style="width: 100.0%; height: 100.0%;">Oakwell         - Barnsley - 23009</div>')[0];
+                popup_68b5616daab040ab82306656d69678fa.setContent(html_4f117a1aa6784ad48b85d4dce362ebda);
+            
+
+            marker_11a0e55a443948c88b097e32a2afbe29.bindPopup(popup_68b5616daab040ab82306656d69678fa)
+            ;
+
+            
+        
+    
+        var marker_e1e0502a9fd64c96ba1c129afd2e75de = L.marker(
+            [57.1593, -2.08872],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_699712e9d6dc4f9ea69bf21c28bcdf64 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e1e0502a9fd64c96ba1c129afd2e75de.setIcon(icon_699712e9d6dc4f9ea69bf21c28bcdf64);
+            
+    
+            var popup_04b66222395143318efcb946002afe65 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_288a6ae998094e5eb8d8da0ec9a6ca6c = $('<div id="html_288a6ae998094e5eb8d8da0ec9a6ca6c" style="width: 100.0%; height: 100.0%;">Pittodrie         - Aberdeen - 22199</div>')[0];
+                popup_04b66222395143318efcb946002afe65.setContent(html_288a6ae998094e5eb8d8da0ec9a6ca6c);
+            
+
+            marker_e1e0502a9fd64c96ba1c129afd2e75de.bindPopup(popup_04b66222395143318efcb946002afe65)
+            ;
+
+            
+        
+    
+        var marker_6b88571c0b2f4b858a4c96f376b1f02d = L.marker(
+            [52.0544, 1.14554],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_fda297d0c48b4366acf119262cbac965 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6b88571c0b2f4b858a4c96f376b1f02d.setIcon(icon_fda297d0c48b4366acf119262cbac965);
+            
+    
+            var popup_0cc2ed0819d6498aa32b9dbeba9db5c6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9ca867a1bd524383959c40b425ab160a = $('<div id="html_9ca867a1bd524383959c40b425ab160a" style="width: 100.0%; height: 100.0%;">Portman Road         - Ipswich Town - 30311</div>')[0];
+                popup_0cc2ed0819d6498aa32b9dbeba9db5c6.setContent(html_9ca867a1bd524383959c40b425ab160a);
+            
+
+            marker_6b88571c0b2f4b858a4c96f376b1f02d.bindPopup(popup_0cc2ed0819d6498aa32b9dbeba9db5c6)
+            ;
+
+            
+        
+    
+        var marker_8ca3aa3370214699a10b576977d3600d = L.marker(
+            [52.9149, -1.44727],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_3337a2d047084f6c9710adafd4561583 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8ca3aa3370214699a10b576977d3600d.setIcon(icon_3337a2d047084f6c9710adafd4561583);
+            
+    
+            var popup_7e87925ea5c149e9a00a29dd5a9be515 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_180c5da54ee3470b98719b68ffef9304 = $('<div id="html_180c5da54ee3470b98719b68ffef9304" style="width: 100.0%; height: 100.0%;">Pride Park         - Derby County - 33597</div>')[0];
+                popup_7e87925ea5c149e9a00a29dd5a9be515.setContent(html_180c5da54ee3470b98719b68ffef9304);
+            
+
+            marker_8ca3aa3370214699a10b576977d3600d.bindPopup(popup_7e87925ea5c149e9a00a29dd5a9be515)
+            ;
+
+            
+        
+    
+        var marker_38b65a355a704c48a2197571f59c4379 = L.marker(
+            [52.4481, -1.49563],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_10f5c15be026425e8500fad93e817516 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_38b65a355a704c48a2197571f59c4379.setIcon(icon_10f5c15be026425e8500fad93e817516);
+            
+    
+            var popup_33475d9d57234fb084cac3c1da02cd75 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7c77db8382a54bbabff41033398120c8 = $('<div id="html_7c77db8382a54bbabff41033398120c8" style="width: 100.0%; height: 100.0%;">Ricoh Arena         - Coventry City - 32609</div>')[0];
+                popup_33475d9d57234fb084cac3c1da02cd75.setContent(html_7c77db8382a54bbabff41033398120c8);
+            
+
+            marker_38b65a355a704c48a2197571f59c4379.bindPopup(popup_33475d9d57234fb084cac3c1da02cd75)
+            ;
+
+            
+        
+    
+        var marker_bdda7362199e462ba6025f0f3930bdcd = L.marker(
+            [54.5781, -1.21776],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_51c1d20873894fac9e7174c5558921bc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bdda7362199e462ba6025f0f3930bdcd.setIcon(icon_51c1d20873894fac9e7174c5558921bc);
+            
+    
+            var popup_302192ea6d0445ec94dbe9f87149295d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1cc1aa642421405a91b2f9482a549a8e = $('<div id="html_1cc1aa642421405a91b2f9482a549a8e" style="width: 100.0%; height: 100.0%;">Riverside         - Middlesbrough - 34988</div>')[0];
+                popup_302192ea6d0445ec94dbe9f87149295d.setContent(html_1cc1aa642421405a91b2f9482a549a8e);
+            
+
+            marker_bdda7362199e462ba6025f0f3930bdcd.bindPopup(popup_302192ea6d0445ec94dbe9f87149295d)
+            ;
+
+            
+        
+    
+        var marker_6f424774db3c43bfabb752b4f37c776c = L.marker(
+            [51.3983, -0.08545499999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_0893f42d947c46d0b81724fbc347f663 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6f424774db3c43bfabb752b4f37c776c.setIcon(icon_0893f42d947c46d0b81724fbc347f663);
+            
+    
+            var popup_2970557fd3394303a10130c353f606f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8943408d153943549d9b5652a618ec02 = $('<div id="html_8943408d153943549d9b5652a618ec02" style="width: 100.0%; height: 100.0%;">Selhurst Park         - Crystal Palace - 26309</div>')[0];
+                popup_2970557fd3394303a10130c353f606f6.setContent(html_8943408d153943549d9b5652a618ec02);
+            
+
+            marker_6f424774db3c43bfabb752b4f37c776c.bindPopup(popup_2970557fd3394303a10130c353f606f6)
+            ;
+
+            
+        
+    
+        var marker_d64a70a600f342f0a9112a9baf49fabd = L.marker(
+            [52.4756, -1.8682400000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_c5a8f329bf69490bb2f500582f48c8f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d64a70a600f342f0a9112a9baf49fabd.setIcon(icon_c5a8f329bf69490bb2f500582f48c8f6);
+            
+    
+            var popup_27e49bb586864592b185e3b1954bee37 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1df4aa370d9e4f1c8dc34b78732f4c53 = $('<div id="html_1df4aa370d9e4f1c8dc34b78732f4c53" style="width: 100.0%; height: 100.0%;">St Andrews         - Birmingham City - 30009</div>')[0];
+                popup_27e49bb586864592b185e3b1954bee37.setContent(html_1df4aa370d9e4f1c8dc34b78732f4c53);
+            
+
+            marker_d64a70a600f342f0a9112a9baf49fabd.bindPopup(popup_27e49bb586864592b185e3b1954bee37)
+            ;
+
+            
+        
+    
+        var marker_582e153c4099477e9e805e6bef8e7f1d = L.marker(
+            [50.9058, -1.39114],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_e08f9b83a25d4a0da88f10aa9dec6d3c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_582e153c4099477e9e805e6bef8e7f1d.setIcon(icon_e08f9b83a25d4a0da88f10aa9dec6d3c);
+            
+    
+            var popup_d9e1f6e244954d8c866da4962de854c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3416a79b7ac34f678360429d454844fd = $('<div id="html_3416a79b7ac34f678360429d454844fd" style="width: 100.0%; height: 100.0%;">St Mary&#39;s Stadium         - Southampton - 32689</div>')[0];
+                popup_d9e1f6e244954d8c866da4962de854c8.setContent(html_3416a79b7ac34f678360429d454844fd);
+            
+
+            marker_582e153c4099477e9e805e6bef8e7f1d.bindPopup(popup_d9e1f6e244954d8c866da4962de854c8)
+            ;
+
+            
+        
+    
+        var marker_8532fd40d127499695cc4fb4b46d4b76 = L.marker(
+            [54.9146, -1.38837],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_2b0a91c7a4e04ca899d58ed84d8e5301 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8532fd40d127499695cc4fb4b46d4b76.setIcon(icon_2b0a91c7a4e04ca899d58ed84d8e5301);
+            
+    
+            var popup_f554ae243f834a66a05944c56e73fcdb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_061a9b699f7c423ba78699cfb71e197b = $('<div id="html_061a9b699f7c423ba78699cfb71e197b" style="width: 100.0%; height: 100.0%;">Stadium of Light         - Sunderland - 49000</div>')[0];
+                popup_f554ae243f834a66a05944c56e73fcdb.setContent(html_061a9b699f7c423ba78699cfb71e197b);
+            
+
+            marker_8532fd40d127499695cc4fb4b46d4b76.bindPopup(popup_f554ae243f834a66a05944c56e73fcdb)
+            ;
+
+            
+        
+    
+        var marker_f66f5cc626764f08b27a88c46d412382 = L.marker(
+            [52.0096, -0.733507],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_f68bb7ed9b584e558cfd9fe6870daed9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f66f5cc626764f08b27a88c46d412382.setIcon(icon_f68bb7ed9b584e558cfd9fe6870daed9);
+            
+    
+            var popup_4d040a3531bb48aea36e0e2ddca31292 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_46e54451d4e540e698dd8ab0d5699b48 = $('<div id="html_46e54451d4e540e698dd8ab0d5699b48" style="width: 100.0%; height: 100.0%;">Stadiummk         - MK Dons - 22000</div>')[0];
+                popup_4d040a3531bb48aea36e0e2ddca31292.setContent(html_46e54451d4e540e698dd8ab0d5699b48);
+            
+
+            marker_f66f5cc626764f08b27a88c46d412382.bindPopup(popup_4d040a3531bb48aea36e0e2ddca31292)
+            ;
+
+            
+        
+    
+        var marker_4164b92ba1d04de69a935e8926400582 = L.marker(
+            [51.4816, -0.19103399999999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_6e53c47d212e4af4b9326b19c4865943 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4164b92ba1d04de69a935e8926400582.setIcon(icon_6e53c47d212e4af4b9326b19c4865943);
+            
+    
+            var popup_1ab7b650d00e43dca77c6086136f04a6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_532806f1aa9b46c78d0dfd617cee7815 = $('<div id="html_532806f1aa9b46c78d0dfd617cee7815" style="width: 100.0%; height: 100.0%;">Stamford Bridge         - Chelsea - 41837</div>')[0];
+                popup_1ab7b650d00e43dca77c6086136f04a6.setContent(html_532806f1aa9b46c78d0dfd617cee7815);
+            
+
+            marker_4164b92ba1d04de69a935e8926400582.bindPopup(popup_1ab7b650d00e43dca77c6086136f04a6)
+            ;
+
+            
+        
+    
+        var marker_053ebefd4ebf4cf6921005c79969e076 = L.marker(
+            [52.9399, -1.13258],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_31ab784e37cd46768f71cd496b138a94 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_053ebefd4ebf4cf6921005c79969e076.setIcon(icon_31ab784e37cd46768f71cd496b138a94);
+            
+    
+            var popup_77e85f9a9cc7422c879ab60086e57fc7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a4a05e421d9341d59a72bb8a7063ec55 = $('<div id="html_a4a05e421d9341d59a72bb8a7063ec55" style="width: 100.0%; height: 100.0%;">The City Ground         - Nottingham Forest - 30603</div>')[0];
+                popup_77e85f9a9cc7422c879ab60086e57fc7.setContent(html_a4a05e421d9341d59a72bb8a7063ec55);
+            
+
+            marker_053ebefd4ebf4cf6921005c79969e076.bindPopup(popup_77e85f9a9cc7422c879ab60086e57fc7)
+            ;
+
+            
+        
+    
+        var marker_0bc27351b3364013aef7fee2b3f5b914 = L.marker(
+            [51.4859, -0.050743],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_6d74a2a360574147be6e5114da8e542f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0bc27351b3364013aef7fee2b3f5b914.setIcon(icon_6d74a2a360574147be6e5114da8e542f);
+            
+    
+            var popup_f8fc9475f696452e986113b10c7dbf71 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_52977ca88578450ebf01ed26e6f86115 = $('<div id="html_52977ca88578450ebf01ed26e6f86115" style="width: 100.0%; height: 100.0%;">The Den         - Millwall - 20146</div>')[0];
+                popup_f8fc9475f696452e986113b10c7dbf71.setContent(html_52977ca88578450ebf01ed26e6f86115);
+            
+
+            marker_0bc27351b3364013aef7fee2b3f5b914.bindPopup(popup_f8fc9475f696452e986113b10c7dbf71)
+            ;
+
+            
+        
+    
+        var marker_811e8bb5d75c461d9d3aaf3dd27e3908 = L.marker(
+            [53.6543, -1.76837],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_988c8eea815e4b4e95410e58f9993092 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_811e8bb5d75c461d9d3aaf3dd27e3908.setIcon(icon_988c8eea815e4b4e95410e58f9993092);
+            
+    
+            var popup_7d3455799bc1498797d42c26dd5701bd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_464ca854ff0543f78bfde934778e494f = $('<div id="html_464ca854ff0543f78bfde934778e494f" style="width: 100.0%; height: 100.0%;">The Galpharm Stadium         - Huddersfield Town - 24500</div>')[0];
+                popup_7d3455799bc1498797d42c26dd5701bd.setContent(html_464ca854ff0543f78bfde934778e494f);
+            
+
+            marker_811e8bb5d75c461d9d3aaf3dd27e3908.bindPopup(popup_7d3455799bc1498797d42c26dd5701bd)
+            ;
+
+            
+        
+    
+        var marker_f4c750c9676345e4a092d3560c048c19 = L.marker(
+            [52.50899999999999, -1.96418],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_3f3622958c154475bdb7541a5ae27ee6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f4c750c9676345e4a092d3560c048c19.setIcon(icon_3f3622958c154475bdb7541a5ae27ee6);
+            
+    
+            var popup_4a22f23d621a433bab816c2b24bf8227 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a471c922a4324fe282882c261245cedd = $('<div id="html_a471c922a4324fe282882c261245cedd" style="width: 100.0%; height: 100.0%;">The Hawthorns         - West Bromwich Albion - 26272</div>')[0];
+                popup_4a22f23d621a433bab816c2b24bf8227.setContent(html_a471c922a4324fe282882c261245cedd);
+            
+
+            marker_f4c750c9676345e4a092d3560c048c19.bindPopup(popup_4a22f23d621a433bab816c2b24bf8227)
+            ;
+
+            
+        
+    
+        var marker_d31b71ee6b2f4e5ca5521ecacca9b9b4 = L.marker(
+            [51.4865, 0.036757],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_0264875ecb834de6a7db6b23439430bf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d31b71ee6b2f4e5ca5521ecacca9b9b4.setIcon(icon_0264875ecb834de6a7db6b23439430bf);
+            
+    
+            var popup_0a28603150d047a0873f5cd953cc0f76 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ba7e56fc57b141cfaaeab023d76106fa = $('<div id="html_ba7e56fc57b141cfaaeab023d76106fa" style="width: 100.0%; height: 100.0%;">The Valley         - Charlton Athletic - 27111</div>')[0];
+                popup_0a28603150d047a0873f5cd953cc0f76.setContent(html_ba7e56fc57b141cfaaeab023d76106fa);
+            
+
+            marker_d31b71ee6b2f4e5ca5521ecacca9b9b4.bindPopup(popup_0a28603150d047a0873f5cd953cc0f76)
+            ;
+
+            
+        
+    
+        var marker_1b957ec41e45477a972ce28e24e8c7f7 = L.marker(
+            [53.7888, -2.23018],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_56c52aff142e46b3b84653ca650533ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b957ec41e45477a972ce28e24e8c7f7.setIcon(icon_56c52aff142e46b3b84653ca650533ff);
+            
+    
+            var popup_8752b840226a44b2a5805e72c0873b4b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d0eed5e7724c431e9235e9782ee2995c = $('<div id="html_d0eed5e7724c431e9235e9782ee2995c" style="width: 100.0%; height: 100.0%;">Turf Moor         - Burnley - 22546</div>')[0];
+                popup_8752b840226a44b2a5805e72c0873b4b.setContent(html_d0eed5e7724c431e9235e9782ee2995c);
+            
+
+            marker_1b957ec41e45477a972ce28e24e8c7f7.bindPopup(popup_8752b840226a44b2a5805e72c0873b4b)
+            ;
+
+            
+        
+    
+        var marker_0f609d30df6b439485e985ab71d2b61a = L.marker(
+            [53.8042, -1.75902],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_5a71a2a01d814baba5a8f7cd657dfc4d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0f609d30df6b439485e985ab71d2b61a.setIcon(icon_5a71a2a01d814baba5a8f7cd657dfc4d);
+            
+    
+            var popup_6bff03ecd5fe4237a84e87919a224ade = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d92163fa3c7a463f9bc4c15d8ed93318 = $('<div id="html_d92163fa3c7a463f9bc4c15d8ed93318" style="width: 100.0%; height: 100.0%;">Valley Parade         - Bradford City - 25136</div>')[0];
+                popup_6bff03ecd5fe4237a84e87919a224ade.setContent(html_d92163fa3c7a463f9bc4c15d8ed93318);
+            
+
+            marker_0f609d30df6b439485e985ab71d2b61a.bindPopup(popup_6bff03ecd5fe4237a84e87919a224ade)
+            ;
+
+            
+        
+    
+        var marker_7797547397d947f097391cc686ff7ef6 = L.marker(
+            [52.5092, -1.8850799999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_a66d75353ad24e63a8ad0295643bccc4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7797547397d947f097391cc686ff7ef6.setIcon(icon_a66d75353ad24e63a8ad0295643bccc4);
+            
+    
+            var popup_10febc07a9b74d2ca472e208b4a2cb97 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_72335ec4ba154e71a45cd7d15c00c9f3 = $('<div id="html_72335ec4ba154e71a45cd7d15c00c9f3" style="width: 100.0%; height: 100.0%;">Villa Park         - Aston Villa - 42788</div>')[0];
+                popup_10febc07a9b74d2ca472e208b4a2cb97.setContent(html_72335ec4ba154e71a45cd7d15c00c9f3);
+            
+
+            marker_7797547397d947f097391cc686ff7ef6.bindPopup(popup_10febc07a9b74d2ca472e208b4a2cb97)
+            ;
+
+            
+        
+    
+        var marker_f633857d96284a3e818105d115805a18 = L.marker(
+            [51.6033, -0.065684],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_1269d597dc6042ad87ec0a08a3a075b3);
+        
+    
+
+                var icon_d81c149e81a348dea99b36a186dc9425 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f633857d96284a3e818105d115805a18.setIcon(icon_d81c149e81a348dea99b36a186dc9425);
+            
+    
+            var popup_9f416dd432fa48ae9923eef4952c2f34 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0ca5c8d683d14b368b2ce44900795c78 = $('<div id="html_0ca5c8d683d14b368b2ce44900795c78" style="width: 100.0%; height: 100.0%;">White Hart Lane         - Tottenham Hotspur - 36230</div>')[0];
+                popup_9f416dd432fa48ae9923eef4952c2f34.setContent(html_0ca5c8d683d14b368b2ce44900795c78);
+            
+
+            marker_f633857d96284a3e818105d115805a18.bindPopup(popup_9f416dd432fa48ae9923eef4952c2f34)
+            ;
+
+            
+        
+    
+            var feature_group_d825d12cfafa40818cd2eb3fd201537a = L.featureGroup(
+                ).addTo(map_fb0e70e8021b43929ff42fe1bd088971);
+        
+    
+        var marker_95dbf364250d4525a4eca6bc5a4bcc59 = L.marker(
+            [55.8497, -4.20561],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_4bbab95e120d4b81b9abf48c4f596b58 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_95dbf364250d4525a4eca6bc5a4bcc59.setIcon(icon_4bbab95e120d4b81b9abf48c4f596b58);
+            
+    
+            var popup_48ccf74368b84b2483ec0964f4a0d8a2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f08864c660e9420a81930465056180e5 = $('<div id="html_f08864c660e9420a81930465056180e5" style="width: 100.0%; height: 100.0%;">Celtic Park         - Celtic - 60832</div>')[0];
+                popup_48ccf74368b84b2483ec0964f4a0d8a2.setContent(html_f08864c660e9420a81930465056180e5);
+            
+
+            marker_95dbf364250d4525a4eca6bc5a4bcc59.bindPopup(popup_48ccf74368b84b2483ec0964f4a0d8a2)
+            ;
+
+            
+        
+    
+        var marker_7525b5e0a667427ca347802a5cbaa8d4 = L.marker(
+            [51.5549, -0.10843599999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_bd608abdfbfd43248c7b4f5307fa1d64 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7525b5e0a667427ca347802a5cbaa8d4.setIcon(icon_bd608abdfbfd43248c7b4f5307fa1d64);
+            
+    
+            var popup_5b4fe5f764e24dbbbdd59ca90f9bb89f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4463d3a8cb942b7a02a0a236865743f = $('<div id="html_c4463d3a8cb942b7a02a0a236865743f" style="width: 100.0%; height: 100.0%;">Emirates Stadium         - Arsenal - 60361</div>')[0];
+                popup_5b4fe5f764e24dbbbdd59ca90f9bb89f.setContent(html_c4463d3a8cb942b7a02a0a236865743f);
+            
+
+            marker_7525b5e0a667427ca347802a5cbaa8d4.bindPopup(popup_5b4fe5f764e24dbbbdd59ca90f9bb89f)
+            ;
+
+            
+        
+    
+        var marker_c135316309a54d458da2753a9843a3c0 = L.marker(
+            [55.8258, -4.2519800000000005],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_1d7b33c8c1ff44d2952fbb5d928a4cc4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c135316309a54d458da2753a9843a3c0.setIcon(icon_1d7b33c8c1ff44d2952fbb5d928a4cc4);
+            
+    
+            var popup_797f6a8780e34a6aae82922a05d0aa5e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_302d5045a6a84c1e988308d2005aeab8 = $('<div id="html_302d5045a6a84c1e988308d2005aeab8" style="width: 100.0%; height: 100.0%;">Hampden Park         - Scotland, Queen&#39;s Park - 52500</div>')[0];
+                popup_797f6a8780e34a6aae82922a05d0aa5e.setContent(html_302d5045a6a84c1e988308d2005aeab8);
+            
+
+            marker_c135316309a54d458da2753a9843a3c0.bindPopup(popup_797f6a8780e34a6aae82922a05d0aa5e)
+            ;
+
+            
+        
+    
+        var marker_3ebead71259447dca647bf8cc254ad58 = L.marker(
+            [55.8529, -4.30962],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_cec770ef8ec04111ba88cb125dd665a6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3ebead71259447dca647bf8cc254ad58.setIcon(icon_cec770ef8ec04111ba88cb125dd665a6);
+            
+    
+            var popup_22c252b48b1b4aa8b64fafa55f0e4c00 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fc76259606cb4274aa78e92aa5aa99c4 = $('<div id="html_fc76259606cb4274aa78e92aa5aa99c4" style="width: 100.0%; height: 100.0%;">Ibrox         - Rangers - 51082</div>')[0];
+                popup_22c252b48b1b4aa8b64fafa55f0e4c00.setContent(html_fc76259606cb4274aa78e92aa5aa99c4);
+            
+
+            marker_3ebead71259447dca647bf8cc254ad58.bindPopup(popup_22c252b48b1b4aa8b64fafa55f0e4c00)
+            ;
+
+            
+        
+    
+        var marker_63ffdc46e1d44aab92d4ff2fe850417b = L.marker(
+            [51.4782, -3.18281],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_6bb4e9f030f743c5bf1e859aaf7dc5c8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63ffdc46e1d44aab92d4ff2fe850417b.setIcon(icon_6bb4e9f030f743c5bf1e859aaf7dc5c8);
+            
+    
+            var popup_bcc7bc76319243a6bb3689adb6a813ae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a20173c3f19941aa962ff1a5a5800185 = $('<div id="html_a20173c3f19941aa962ff1a5a5800185" style="width: 100.0%; height: 100.0%;">Millennium Stadium         - Wales - 74500</div>')[0];
+                popup_bcc7bc76319243a6bb3689adb6a813ae.setContent(html_a20173c3f19941aa962ff1a5a5800185);
+            
+
+            marker_63ffdc46e1d44aab92d4ff2fe850417b.bindPopup(popup_bcc7bc76319243a6bb3689adb6a813ae)
+            ;
+
+            
+        
+    
+        var marker_67b288b6f7124a14a00fb402acaa7838 = L.marker(
+            [53.4631, -2.2913900000000003],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_476ddaff65914239937d221c5bc62918 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_67b288b6f7124a14a00fb402acaa7838.setIcon(icon_476ddaff65914239937d221c5bc62918);
+            
+    
+            var popup_19870926484b49e9baf2aa9c87674033 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2107aff2679e4a678e0942cb78d38e37 = $('<div id="html_2107aff2679e4a678e0942cb78d38e37" style="width: 100.0%; height: 100.0%;">Old Trafford         - Manchester United - 75811</div>')[0];
+                popup_19870926484b49e9baf2aa9c87674033.setContent(html_2107aff2679e4a678e0942cb78d38e37);
+            
+
+            marker_67b288b6f7124a14a00fb402acaa7838.bindPopup(popup_19870926484b49e9baf2aa9c87674033)
+            ;
+
+            
+        
+    
+        var marker_da7f70f3a3a74d259c80c81f0a4e67ae = L.marker(
+            [51.5383, -0.016587],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_94c81b00afce4794834247680373505b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_da7f70f3a3a74d259c80c81f0a4e67ae.setIcon(icon_94c81b00afce4794834247680373505b);
+            
+    
+            var popup_cfbbaf626acc461596f13fb6a0dcfb1c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a3824ad107fb48f385b584b9f8ce2b30 = $('<div id="html_a3824ad107fb48f385b584b9f8ce2b30" style="width: 100.0%; height: 100.0%;">Olympic Stadium         - West Ham - 60000</div>')[0];
+                popup_cfbbaf626acc461596f13fb6a0dcfb1c.setContent(html_a3824ad107fb48f385b584b9f8ce2b30);
+            
+
+            marker_da7f70f3a3a74d259c80c81f0a4e67ae.bindPopup(popup_cfbbaf626acc461596f13fb6a0dcfb1c)
+            ;
+
+            
+        
+    
+        var marker_414acb8fb1b54b5ab3783d741b28b13c = L.marker(
+            [54.9756, -1.62179],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_4577ac9d1eaa402897b83ea3ee6d1b48 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_414acb8fb1b54b5ab3783d741b28b13c.setIcon(icon_4577ac9d1eaa402897b83ea3ee6d1b48);
+            
+    
+            var popup_86d8551bcd7f473db61deff8aa34bb95 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eaf57139147d4c978f31e5612b6d9b98 = $('<div id="html_eaf57139147d4c978f31e5612b6d9b98" style="width: 100.0%; height: 100.0%;">St James Park         - Newcastle United - 52387</div>')[0];
+                popup_86d8551bcd7f473db61deff8aa34bb95.setContent(html_eaf57139147d4c978f31e5612b6d9b98);
+            
+
+            marker_414acb8fb1b54b5ab3783d741b28b13c.bindPopup(popup_86d8551bcd7f473db61deff8aa34bb95)
+            ;
+
+            
+        
+    
+        var marker_cf33b8e08e63417a99d0e1c2dec44f6b = L.marker(
+            [51.5559, -0.279543],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_d825d12cfafa40818cd2eb3fd201537a);
+        
+    
+
+                var icon_eb449c775869489086b216624188a2fd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf33b8e08e63417a99d0e1c2dec44f6b.setIcon(icon_eb449c775869489086b216624188a2fd);
+            
+    
+            var popup_e5e183106fa94a918c637fd6e3c019d9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3a7a427913b846b9abbfcf3a02d89654 = $('<div id="html_3a7a427913b846b9abbfcf3a02d89654" style="width: 100.0%; height: 100.0%;">Wembley         - England - 90000</div>')[0];
+                popup_e5e183106fa94a918c637fd6e3c019d9.setContent(html_3a7a427913b846b9abbfcf3a02d89654);
+            
+
+            marker_cf33b8e08e63417a99d0e1c2dec44f6b.bindPopup(popup_e5e183106fa94a918c637fd6e3c019d9)
+            ;
+
+            
+        
+    
+            var layer_control_a9591ec25b804f74882c6ee95fedebaf = {
+                base_layers : { "openstreetmap" : tile_layer_f13f6b380a3547658fe05e1fc227302c, },
+                overlays : { "Under 20000" : feature_group_42d43328d10a4e75be46c0cd2b939248,"Between 20000-50000" : feature_group_1269d597dc6042ad87ec0a08a3a075b3,"Above 50000" : feature_group_d825d12cfafa40818cd2eb3fd201537a, }
+                };
+            L.control.layers(
+                layer_control_a9591ec25b804f74882c6ee95fedebaf.base_layers,
+                layer_control_a9591ec25b804f74882c6ee95fedebaf.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_fb0e70e8021b43929ff42fe1bd088971);
+            
+        
+</script>

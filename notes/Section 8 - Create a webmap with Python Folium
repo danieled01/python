@@ -1,0 +1,75 @@
+The Basemap
+
+In order to build a Webmap with Folium we will need to first install Folium library as this is what we will use to build
+our app.  What folium does is allows you write python code and then it converts it into javascript, html and css in
+order to allow you to produce a webmap.
+
+In order to install Folium:
+
+sudo pip3 install Folium
+
+In order to get a list of all available objects you can use with folium you can do:
+
+>>>dir(folium)
+
+you can then look for help on each object - for example:
+
+>>>help(folium.Map)
+
+So in order to create a map of London you can do the following:
+
+>>> import folium
+>>> map = folium.Map(location=[53.76,-2.70])
+>>> type(map)
+<class 'folium.folium.Map'>
+>>> map.save("uk.html")
+
+You can then open the webmap using your browser.  This will give you the base layer of your map to which you can start
+adding layers to it to customize it.
+
+
+
+Adding points to the map
+
+Once we have our basemap we can add another layer on top to start adding points.  The following code allows us to add
+a child to our map which will perform the layer adding to the base layer.  The code below allowed us to add a feature group
+and then add a pointer from that:
+
+import folium
+map = folium.Map(location=[53.76,-2.70], zoom_start=6)
+
+feature_group = folium.FeatureGroup(name="UK_football")
+feature_group.add_child(folium.Marker(location=[53.46,-2.29], popup="Stadium", icon=folium.Icon(color='green')))
+map.add_child(feature_group)
+
+map.save("uk.html")
+
+
+
+Add Multiple points
+
+If you want to add multiple points you can use a for loop in order to loop through a list of lists of coordinates:
+
+the code below has the coordinates for Old Trafford and Anfield.
+
+for stadiums in [[53.46,-2.29],[53.43,-2.96]]:
+    feature_group.add_child(folium.Marker(location=stadiums, popup="Stadium", icon=folium.Icon(color='green')))
+
+The above method is ok if you a handful of items you want to loop from - however in real life you may want to loop through
+hundreds of items so you will more than likely import these from a file and use pandas library.
+
+
+
+Adding Multiple point from a file:
+
+I downloaded a list of around 140 football stadiums and will use this to populate the points on my map which at the moment
+only has Anfield and Old Trafford.  In order to organize and import the data into my python script I will use pandas.
+
+I save the file as a csv in the same directory where my script is located and imported it into a dataframe via the
+interactive shell:
+
+>>> stadiums = pandas.read_csv("football_stadiums.csv")
+>>> type(stadiums)
+<class 'pandas.core.frame.DataFrame'>
+
+Now I need to incorporate the code above into my loop in order for folium to show my markers.

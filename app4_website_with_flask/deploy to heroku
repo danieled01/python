@@ -1,0 +1,33 @@
+Here we will detail all of the steps required to deploy our application onto heroku cloud.
+
+1. Create a python virtual environment as per best practice.
+   - "pip install virtual env"
+   - place all of the app files into a new folder
+   - within the new folder run "python -m venv app_virt_env"
+   - now you can use pip from within the virtual environment to install your python libraries and run your newly created application using the python install from the virtual environment:
+      - "app_virt_env/bin/pip install flask"
+      - "app_virt_env/bin/pip install gunicorn"
+      - "app_virt_env/bin/pip install favicon"
+      - "app_virt_env/bin/pip freeze"
+      - "app_virt_env/bin/python3 app/app.py"
+2. Create an account on heroku
+3. Download heroku toolbelt
+4. Once you have an account created you can login via the CLI using:
+   - heroku login
+5. Create an app on heroku:
+   - heroku create dd1927udemy
+   - this will create the following - https://dd1927udemy.herokuapp.com/ which will be browsable.
+6. Create requirements.txt to upload to heroku:
+   - "app_virt_env/bin/pip freeze > requirement.txt" - these will be the python libraries installed in your virtual env.
+7. Create a "Procfile" with the following contents
+   - "web: gunicorn app:app" - this tells heroku to use gunicorn as a webserver, point to our app python script and call our app within the python script.
+8. Create a "runtime.txt":
+   - python-3.7.2
+9. You then need to initialize a git repo, add and commit:
+   - git init.
+   - git add .
+   - git commit -m "created first heroku app"
+10. Set git to point to our new app:
+   - heroku git:remote --app dd1927udemy
+11. At this point you are ready to push your app to the cloud - make sure your git repo is initialized where your.py file is located.
+   - git push heroku master

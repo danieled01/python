@@ -1,0 +1,488 @@
+Section 2 - Python Basics
+
+
+
+PROGRAM OUTPUT EXPLAINED
+
+This is the code that we will be going through in this lecture, we are going to break it down and understand what it does.
+
+address = ["Flat Floor Street", "18", "New York"]
+pins = {"Mike":1234, "Joe":1111, "Jack":2222}
+
+print(address[0], address[1])
+
+pin = int(input("Enter your pin ")
+
+def find_in_file(f):
+    myfile = open("sample.txt")
+    fruits = myfile.read()
+    fruits = fruits.splitlines()
+    if f in fruits:
+        return "That fruit is in the list"
+    else
+        return "No such fruit found"
+
+if pin in pins.values():
+    fruit = input("Enter fruit: ")
+    print(find_in_file(fruit))
+else:
+    print("Incorrect pin!")
+    print("This info can only be accessed by: ")
+    for key in pins.keys():
+        print(key)
+
+The above code references a sample.txt file which has the following entries:
+
+apple
+orange
+banana
+
+Variables
+
+Variables are a way to store data objects, you can then use funtions to manipulate data objects in the code.  The code above
+holds 3 variables:
+
+address
+pins
+pin
+
+
+
+STRINGS
+
+Strings also hold data objects.  You can use the type function to check the type of a data object.  For example:
+
+>>> greetings = "hello"
+>>> type(greetings)
+<type 'str'>
+
+Its important for Python to differentiate between data objects as Python handles things differently depending on the data
+object type.
+
+Strings and Integers example:
+
+>>> string1 = "100"
+>>> string2 = "100"
+>>> string1 + string2
+'100100'
+>>> conc = string1 + string2
+>>> print (conc)
+100100
+>>> type(conc)
+<type 'str'>
+
+>>> number1 = 100
+>>> number2 = 100
+>>> number1 + number2
+200
+>>> sum = number1 + number2
+>>> print (sum)
+200
+>>> type(sum)
+<type 'int'>
+
+
+
+NUMBERS
+
+There are 2 types of numbers:
+
+Floats
+Integers
+
+Mostly you will use floats for mathematical operations, whilst you will use integers like we do above in pins dictionary above
+for the values assigned to the keys.
+
+>>> type(100)
+<type 'int'>
+>>> type(0.5)
+<type 'float'>
+
+Below are some examples of Math operations:
+
+Addition
+
+>>> 1 + 3.5
+4.5
+
+Subtraction
+
+>>> 1 - 3.5
+-2.5
+
+Multiplication
+
+>>> 1 * 3.5
+3.5
+
+Division
+
+>>> 1 / 3.5
+0.2857142857142857
+
+Exponentiation (3 * 3 * 3 * 3)
+
+>>> 3 ** 4
+81
+
+The order of operations is exponentiation, multiplication, division, addition,subtraction.
+For example, in the following expression we have exponentiation, multiplication and addition:
+
+>>> 1 + 2 * 10**2
+201
+
+You get 201 because first we get 100 from 10**2 (exponentiation), and then we get 200 from 2 * 100 (multiplication),
+and finally 201 from 1 + 200 (addition).
+
+However you can control what to execute first by using parenthesis:
+
+>>> (1 + 2) * 10**2
+300
+
+You get 300 because first we get 3 from 1 + 2, and then we get 100 from 10**2 and then 300 from 3 * 100.
+
+
+
+BUILT-IN FUNCTIONS
+
+Built-in functions are functions which come pre-packaged with Python - For Example:
+
+type()
+
+You can get a list of all built-in functions using:
+
+>>> dir(__builtins__)
+
+You can get help on a funtion by doing:
+
+help(len)
+
+You can use builtin functions to convert data object types - for example:
+
+>>> print string1
+100
+>>> type(string1)
+<type 'str'>
+>>> convert_string1 = int(string1)
+>>> type(convert_string1)
+<type 'int'>
+
+
+
+LISTS
+
+Lists are also data object types that holds multiple data object types - for example:
+
+>>> mylist = ["dan", "damico", 1, 2]
+>>> type(mylist)
+<type 'list'>
+>>> type(mylist[0])
+<type 'str'>
+>>> type(mylist[2])
+<type 'int'>
+
+
+
+LISTS INDEXING AND SLICING
+
+You access items in a list using their index - For Example:
+
+>>> print mylist
+['dan', 'damico', 1, 2]
+>>> mylist[0]
+'dan'
+>>> mylist[-1]
+2
+>>> mylist[1:2]
+['damico']
+>>> mylist[1:]
+['damico', 1, 2]
+>>> mylist[:2]
+['dan', 'damico']
+
+
+
+LIST METHODS
+
+Methods are similar to functions and you can use them to manipulate data object types.  You can check all available methods
+for lists by doing:
+
+>>> mylist
+['dan', 'damico', 1, 2]
+>>> dir(mylist)
+
+So the syntax differs in the way you structure your code in order to manipulate the data objects.  For Example:
+
+>>> mylist
+['dan', 'damico', 1, 2]
+>>> mylist.append(3)
+>>> mylist
+['dan', 'damico', 1, 2, 3]
+
+>>> mylist
+['dan', 'damico', 1, 2, 3]
+>>> mylist.remove(3)
+>>> mylist
+['dan', 'damico', 1, 2]
+>>> mylist.remove(mylist[2])
+>>> mylist.remove(mylist[2])
+>>> mylist
+['dan', 'damico']
+
+
+
+TUPLES
+
+Tuples are exactly like a list however they are immutable - which means data objects cannot be added or removed from it.
+Tuples are defined by round brackets.  For example:
+
+>>> mytuple = ("Dan", "D'Amico", 1980)
+>>> type(mytuple)
+<type 'tuple'>
+>>> print (mytuple[1], mytuple[0])
+("D'Amico", 'Dan')
+>>>
+
+
+
+DICTIONARIES
+
+Dictionaries are lists of key/value pairs.  They are useful when you want to store data values against they respective keys.
+For example:
+
+>>> mydict = { "mother": "Marge Simpson", "father": "Homer Simpson", "children": ["Lisa", "Bart", "Maggie"] }
+>>> type(mydict)
+<type 'dict'>
+>>> mydict["children"]
+['Lisa', 'Bart', 'Maggie']
+>>> mydict.keys()
+['father', 'children', 'mother']
+>>> mydict.values()
+['Homer Simpson', ['Lisa', 'Bart', 'Maggie'], 'Marge Simpson']
+
+You can use methods to extract data out of dictionaries, you can view all of the methods that are applicable to
+dictionaries by doing:
+
+dir(mydict)
+
+Here are some more operations you can do with dictionaries:
+
+>>> person97 = {"name":"Jack", "surname":"Smith", "age":"29"}
+
+Removing pair "name":"Jack"
+>>> person97.pop("name")
+'Jack'
+>>> person97
+{'surname': 'Smith', 'age': '29'}
+
+Adding new pair "name":"Jack"
+>>> person97["name"] = "Jack"
+>>> person97
+{'surname': 'Smith', 'age': '29', 'name': 'Jack'}
+
+Changing an existing value
+>>> person97["age"] = 30
+>>> person97
+{'surname': 'Smith', 'age': 30, 'name': 'Jack'}
+
+Mapping two lists to a dictionary:
+>>> keys = ["a", "b", "c"]
+>>> values = [1, 2, 3]
+>>> mydict = dict(zip(keys, values))
+>>> mydict
+{'a': 1, 'b': 2, 'c': 3}
+
+
+
+USER INPUT
+
+Is a way of pausing our program and asking the user for an input by using the input() function.  For example:
+
+>>> age = int(input("What is your age? "))
+What is your age? 30
+>>> type age
+<type 'int'>
+>>> print(age)
+30
+
+The code above stores the output of the int() function, which gets the argument from the nested input() function, to the variable age.
+So when we use the type() function against age it returns the int data object type.
+
+
+
+CONDITIONALS
+
+These are used to evaluate a condition to either True of False then depending on the result some lines of code are executed.  By Default
+True is returned unless a condition occurs to make it not True - For Example:
+
+>>> if True:
+...     print("yes")
+... else:
+...     print("no")
+...
+yes
+>>> if 2>1:
+...     print("yes")
+... else:
+...     print("false")
+...
+yes
+>>> if 2==1:
+...     print("yes")
+... else:
+...     print("false")
+...
+false
+
+In the test code we have 2 conditionals defined, 1 that runs within a function and 1 that runs in the script outside of a function.  The conditional that runs
+outside of the function will get executed everytime the script runs, whilst the one inside the function will only get executed when the function is called
+within the script.
+
+Here is the script again:
+
+address = ["Flat Floor Street", "18", "New York"]
+pins = {"Mike":1234, "Joe":1111, "Jack":2222}
+
+print(address[0], address[1])
+
+pin = int(input("Enter your pin ")
+
+def find_in_file(f):
+    myfile = open("sample.txt")
+    fruits = myfile.read()
+    fruits = fruits.splitlines()
+    if f in fruits:
+        return "That fruit is in the list"
+    else
+        return "No such fruit found"
+
+if pin in pins.values():
+    fruit = input("Enter fruit: ")
+    print(find_in_file(fruit))
+else:
+    print("Incorrect pin!")
+    print("This info can only be accessed by: ")
+    for key in pins.keys():
+        print(key)
+
+
+
+CONDITIONALS WITH MULTIPLE CONDITIONS
+
+The elif statement allows to check for multiple conditions within the same code (there is also a nested conditional where it checks for 2 conditions and only
+executes the code if both return True):
+
+x = float(input("What's your number? "))
+
+if x > 10:
+    if type(x) == float:
+        print("Greater and a Float")
+elif x == 10:
+    print("The Same")
+else:
+    print("Smaller")
+
+
+
+CUSTOM FUNCTIONS
+
+Custom functions in your code are used as best practice to keep your code organized as well as the ability to re-use lines of code without having to write it out again.
+When you define a function a custom function in your code all you are doing is specifying the blueprint and these will only be executed when they are called upon
+and arguments passed to them.
+
+Below is a simple custom funtion:
+
+def power(x)
+    return x ** 2
+
+power(5)
+
+In the function definition x is referred to as a paramater, when you call the function with power(5) the 5 is referred to as the argument.
+
+Within a custom function you can use a return statement which will allow you to re-use the data output from your function.  So in essence you will build your
+function with parameters pass to it, then when you run it you will pass arguments to it and the function will execute the code within it and by using the
+return statement you can then use the output of the function and run some other code against it.  For Example:
+
+x = float(input("First Number: "))
+y = float(input("Second Number: "))
+
+def addition(x,y):
+    return x+y
+
+print ("We always add 20 to your numbers ", addition(x,y) + 20)
+
+
+
+CUSTOM FUNCTIONS WITH DEFAULT VALUES FOR PARAMETERS
+
+You can write custom functions that can hold default parameters that get passed as arguments.  For Example:
+
+def greeting(message="Good Morning", name="Dan"):
+    return message, name
+
+print(greeting())
+
+x = "Good Afternoon"
+y = "John"
+
+print(greeting(x,y))
+
+
+
+OPENING FILES
+
+In order to open a file and access the contents of it you will need to run the open() function against the file (which is the data object in this case).  Once that is
+done you can use the .read method to read the contents.  For Example:
+
+ddamico@Danieles-MBP:~/Udemy/Python/Python_Test_Scripts$ cat dan.txt
+dan
+d'amico
+980
+
+>>> open_file = open("dan.txt")
+>>> read_file = open_file.read()
+>>> print(read_file)
+dan
+d'amico
+980
+
+After you have read the file you can use open_file.close() to close the file and release memory allocations from the host running the program.
+
+
+
+FOR LOOPS
+
+Used to iterate over a data objects and run code against them.  For Example:
+
+>>> mylist = [ 1,2,3,4,5,6,7,8]
+>>> for item in mylist:
+...     new_item = item * 100
+...     print(new_item)
+...
+100
+200
+300
+400
+500
+600
+700
+800
+
+
+
+OPENING FILES IN WRITE MODE
+
+By default when you use the open() function on a file the file is opened in read-only mode.  If you wish to open a file in write mode and write text to it you do:
+
+>>> myfile = open("write_mode.txt", "w")
+>>> myfile.write("dan_test")
+>>> myfile.close()
+
+>>> myfile = "write_mode.txt"
+>>> open_myfile = open(myfile)
+>>> open_myfile.read()
+'dan_test'
+
+If already have a file called write_mode.txt opening it in "w" will overwrite the file.  If you wish to append data to the file you need to use "a" mode for
+append.  However when you are in append mode you are not able to check the contents of the file and then append to it based on conditionals.  If you want to check
+the contents of a file and also append data (essentially r+w and not overwrite) you need to use the "a+" mode.

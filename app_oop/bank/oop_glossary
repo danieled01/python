@@ -1,0 +1,11 @@
+class - is what we will map to the object.  As we have seen we can have a base class with subclasses inheriting characteristics.
+object instance - is what we map to the class in order to initiate the class.
+instance variables - these are the variables defined within the methods of the class.
+class variable - this is a variable that is created within the class but outside of the methods.
+doc strings - these are comments specified in the class to define what it does.  You can print this by pointing it at the object and calling __doc__.
+data member - these represent class and instance variables.
+constructor - the __init__ functions
+methods - these are the methods that you apply to the cursor_object
+instantiation - this is the process of mapping objects to the same class.
+inheritance - parent and child classes
+attributes - is process of accessing methods and variables from classes.

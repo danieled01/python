@@ -1,0 +1,101 @@
+Section 3 - Beyond The Basics
+
+
+
+WHILE LOOP
+
+While loops aren't as widely used as for loops.  The difference between the 2 is that a for loop will run until it exhausts all items it was iterating over.
+A while loop will run all the time a condition equals to True and will stop when it gets a False.
+
+
+
+STRING FORMATTING
+
+String formatting is a way of placing variables within strings and keeping your code organized.  For example:
+
+user_name = "Dan"
+user_surname = "D'Amico"
+print("Hello", user_name, "how are you?")
+username = "Hello", user_name, "how are you?"
+print(username)
+
+username_sf = "Hello %s %s how are you?" % (user_name,user_surname)
+print(username_sf)
+
+username_sf uses string formatting and allows us to create a variable of a string and variable mixed in together.
+
+
+
+MODULES, LIBRARIES AND PACKAGES
+
+By default Python will load in memory all programs which are deemed to be frequently used by programmers.  Anything else that
+you wish to you will need to be loaded in on an ad-hoc basis. For example below we import the os module:
+
+>>> os.listdir()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'os' is not defined
+
+>>> import os
+>>> os.listdir()
+['test.txt']
+
+Modules and Libraries are essentially the same thing they are just packaged in a different manner, they both come with the
+default installation of Python.
+
+Packages differ as they are built by 3rd parties and do not come with the default installation of Python.  In order
+to install them you will need to use python pip.  For example - we couldn't import glob2 as it wasn't on our system:
+
+ddamico@Danieles-MBP:~$ sudo pip install glob2
+Installing collected packages: glob2
+  Running setup.py install for glob2 ... done
+Successfully installed glob2-0.6
+You are using pip version 10.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ddamico@Danieles-MBP:~$ python
+Python 2.7.10 (default, Oct  6 2017, 22:29:07)
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import glob2
+
+
+
+ITERATING OVER 2 LISTS AT THE SAME TIME
+
+We have seen how to to iterate over a list using a for loop, however we may require to iterate over 2 lists at the same
+time.  We can do so using the builtin zip() function.  For example:
+
+>>> mylista = ['a','b','c']
+>>> mylist1 = [1,2,3]
+>>> for itema, item1 in zip(mylista,mylist1):
+...     print("%s is %s" %(itema,item1))
+...
+a is 1
+b is 2
+c is 3
+
+
+
+WITH CONTEXT MANAGER
+
+We have seen how to open files, write to them and the close them.  The recommended way to do this is by using the
+with context manager as this takes care of closing the file for you, so if your code breaks you don't leave open
+files behind.  For example:
+
+with open("example.txt", "w") as myfile:
+    myfile.write("Dan D'Amico")
+
+
+
+ERROR HANDLING
+
+You would use error handling in your script so that when you run it and an error is encountered the script doesn't fail.
+The error needs to be explicitly stated so you are only ignoring that particular error instead of all errors.
+
+def divide(a,b):
+    try:
+        return a/b
+    except ZeroDivisionError:
+        return "Zero division doesnt make sense"
+
+print(divide(1/0))

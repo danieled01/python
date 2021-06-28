@@ -1,0 +1,149 @@
+Section 7 - Numpy
+
+What is Numpy?
+
+Python can be used to deal with images which themselves are represented by a list of numbers which in turn they represent the shade of colour
+of a single pixel.  For example a small image that made up of 3x5 pixels can be represented in python by a list of 3 lists with 5 items:
+
+[[12,22,33,44,16],
+ [99,91,92,87,55],
+ [12,13,14,16,19]]
+
+This is OK for small images however such mechanism can become quite memory and CPU intensive for images made up by millions of pixel therefore
+in such case the numpy library will be used.
+
+In order to use numpy you will need to install via pip - so:
+
+sudo pip3 install numpy
+
+numpy allows you to have 1 dimensional arrays, 2 dimensial array (like the example above) and 3 dimensional arrays (not so widely used).
+
+The example below shows the numpy 1,2,3 dimensional arrays and standard python list of lists
+
+>>> mylist = [[12,22,33,44,16],
+...  [99,91,92,87,55],
+...  [12,13,14,16,19]]
+>>> mylist
+[[12, 22, 33, 44, 16], [99, 91, 92, 87, 55], [12, 13, 14, 16, 19]]
+>>> type(mylist)
+
+<class 'list'>
+>>> import numpy
+>>> numpy1dimarray=numpy.arange(27)
+>>> numpy1dimarray
+array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
+       17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
+>>> type(numpy1dimarray)
+<class 'numpy.ndarray'>
+>>> numpy2dimarray=numpy1dimarray.reshape(3,9)
+>>> numpy2dimarray
+array([[ 0,  1,  2,  3,  4,  5,  6,  7,  8],
+       [ 9, 10, 11, 12, 13, 14, 15, 16, 17],
+       [18, 19, 20, 21, 22, 23, 24, 25, 26]])
+>>> numpy3dimarray=numpy1dimarray.reshape(3,3,3)
+>>> numpy3dimarray
+array([[[ 0,  1,  2],
+        [ 3,  4,  5],
+        [ 6,  7,  8]],
+
+       [[ 9, 10, 11],
+        [12, 13, 14],
+        [15, 16, 17]],
+
+       [[18, 19, 20],
+        [21, 22, 23],
+        [24, 25, 26]]])
+
+
+
+Convert images to numpy arrays
+
+The examples that were given above are a way to just show how numpy works however in real life scenarios your numpy arrays will be made up
+by images or videos that you import into python.  In order for this to be possible you need to install opencv:
+
+sudo pip3 install opencv-python
+
+to use
+
+import cv2
+
+I have 3x5 pixel image that I have downloaded from the web as an example - I will now show how to use numpy and cv2 to import the image
+and view the numpy array values that make up the pixels:
+
+>>> import numpy
+>>> import cv2
+>>> image=cv2.imread("smallgray.png",0)
+>>> image
+array([[187, 158, 104, 121, 143],
+       [198, 125, 255, 255, 147],
+       [209, 134, 255,  97, 182]], dtype=uint8)
+>>> type(image)
+<class 'numpy.ndarray'>
+
+The 0 for the cv2.imread method is to use gray scale, for rbg (red,blue,green) you would use 1.
+
+Another example of cv2 and numpy would be to create our own pixels in a 2 dimensional numpy array and allocate a colour to each of the pixels.
+We would then save our picture as "danimage.png".
+
+I did this in a python3 shell and the steps were:
+
+import numpy
+import cv2
+
+>>> image_list=[[0,127,255,],[255,127,0],[127,255,0]]
+>>> mynewimage=numpy.array(image_list)
+>>> mynewimage
+array([[3, 3, 3],
+       [4, 4, 4],
+       [5, 5, 5]])
+>>> type(mynewimage)
+<class 'numpy.ndarray'>
+>>> newimage=cv2.imwrite("danimage.png",mynewimage)
+
+
+
+Indexing, slicing and iterating numpy arrays
+
+When indexing and slicing numpy arrays the concept is the same as when manipulating lists, there is a difference in the way that we do it
+though when we are manipulating 2 and 3 dimensional arrays.  For example:
+
+>>> mynewimage
+array([[  0, 127, 255],
+       [255, 127,   0],
+       [127, 255,   0]])
+>>> mynewimage
+array([[  0, 127, 255],
+       [255, 127,   0],
+       [127, 255,   0]])
+>>> mynewimage[0:2,2]
+array([255,   0])
+
+So the first digits before the comma is the range of rows and then second set is the range of items to extract.
+
+To iterate you will use a for loop which by default will list all of the rows, if you want to access the columns you need to use them
+transpose method and if you want to access each item on the array you need to use the flat method.  So:
+
+>>> for i in mynewimage:
+...     print(i)
+...
+[  0 127 255]
+[255 127   0]
+[127 255   0]
+>>> for i in mynewimage.T:
+...     print(i)
+...
+[  0 255 127]
+[127 127 255]
+[255   0   0]
+>>> for i in mynewimage.flat:
+...     print(i)
+...
+0
+127
+255
+255
+127
+0
+127
+255
+0
